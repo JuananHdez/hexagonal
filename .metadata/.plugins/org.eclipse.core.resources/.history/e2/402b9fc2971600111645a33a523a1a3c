@@ -1,0 +1,18 @@
+package es.um.atica.umufly.parking.domain.model;
+
+import java.util.UUID;
+
+import es.um.atica.umufly.vuelos.domain.model.DocumentoIdentidad;
+
+// Agregado raíz
+public class ReservaParking {
+	
+	private UUID id;
+	private DocumentoIdentidad identificadorTitular;
+	private TipoReserva tipoReserva;
+	private PeriodoEstacionamiento periodo;
+	private BigDecimal importe;
+	
+	
+
+}

@@ -1,0 +1,11 @@
+package es.um.atica.umufly.vuelos.application.usecase.crearreservas;
+
+import es.um.atica.fundewebjs.umubus.domain.cqrs.Query;
+
+public class CreaReservas extends Query<Optional<Usuario>>{
+	privateStringusuarioId;
+	//Definimos constructor privado
+	publicstaticObtenerUsuarioQueryof(String usuarioId){
+		returnnewObtenerUsuarioQuery(usuarioId);
+	}
+}

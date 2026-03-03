@@ -1,0 +1,10 @@
+package es.um.atica.umufly.vuelos.application.usecase.listarreservas;
+
+import org.springframework.data.domain.Page;
+
+import es.um.atica.fundewebjs.umubus.domain.cqrs.QueryHandler;
+import es.um.atica.umufly.vuelos.domain.model.ReservaVuelo;
+
+public class ListarReservasQueryHandler implements QueryHandler<Page<ReservaVuelo>, ListarReservasQuery> {
+
+}

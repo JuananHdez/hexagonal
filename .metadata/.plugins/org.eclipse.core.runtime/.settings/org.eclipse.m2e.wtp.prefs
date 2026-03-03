@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+oracle.eclipse.tools.maven.adf.enabler.enabled=false
+org.eclipse.m2e.wtp.jaxrs.enabler.enabled=true
+org.eclipse.m2e.wtp.jpa.enabler.enabled=true
+org.eclipse.m2e.wtp.jsf.enabler.enabled=true

@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Build-timestamp: 28/05/2024-18:00
+Implementation-Title: JSF 1.2 Weblogic 12.2 Shared Lib - EAR
+Implementation-Version: 1.2.UMU
+Implementation-Vendor-Id: org.um.atica.fundeweb.weblogic.weblogic-shar
+ ed-libs.jsf-all
+Implementation-Version-Original: 1.2.20-UMU-011
+Build-Jdk: 1.8.0_162
+Built-By: juanmiguel.bernal
+Specification-Title: JSF 1.2 Weblogic 12.2 Shared Lib - EAR
+Created-By: Apache Maven 3.0.5
+Specification-Version: 1.2
+Extension-Name: jsf-legacy
+Archiver-Version: Plexus Archiver
+

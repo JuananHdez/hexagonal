@@ -1,0 +1,10 @@
+arguments=
+auto.sync=false
+eclipse.preferences.version=1
+gradle.build.scans=false
+gradle.distribution=GRADLE_DISTRIBUTION(WRAPPER)
+gradle.offline.mode=false
+gradle.user.home=@FUNDEWEB_USER_HOME_4@FundeWeb\\2.1\\eclipse-user-space\\gradle
+jvm.arguments=
+show.console.view=true
+show.executions.view=true

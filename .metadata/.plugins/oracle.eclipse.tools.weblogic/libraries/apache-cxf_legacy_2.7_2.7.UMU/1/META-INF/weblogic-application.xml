@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogic-application
+	xmlns="http://xmlns.oracle.com/weblogic/weblogic-application"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/javaee_5.xsd http://xmlns.oracle.com/weblogic/weblogic-application http://xmlns.oracle.com/weblogic/weblogic-application/1.5/weblogic-application.xsd">
+
+	<!--weblogic-version:12.2.1 -->
+	<prefer-application-packages>
+		<package-name>com.ibm.wsdl.*</package-name>
+		<package-name>javax.ws.rs.*</package-name>
+		<package-name>javax.wsdl.*</package-name>
+		<package-name>javax.xml.crypto.*</package-name>
+		<package-name>org.aopalliance.*</package-name>
+		<package-name>org.apache.cxf.*</package-name>
+		<package-name>org.apache.neethi.*</package-name>
+		<package-name>org.apache.jcp.xml.dsig.internal.*</package-name>
+		<package-name>org.apache.ws.security.*</package-name>
+		<package-name>org.apache.ws.commons.schema.*</package-name>
+		<package-name>org.apache.xml.security.*</package-name>
+		<package-name>org.codehaus.jettison.*</package-name>
+		<package-name>org.objectweb.asm.*</package-name>
+		<package-name>org.springframework.*</package-name>
+
+		<!-- Jersey Libraries -->
+		<package-name>com.sun.ws.rs.ext.*</package-name>
+		<package-name>com.sun.jersey.*</package-name>
+		<package-name>jersey.repackaged.*</package-name>
+		<package-name>com.sun.research.ws.wadl.*</package-name>
+
+		<!-- Evitar el Jersey del Servidor -->
+		<package-name>org.glassfish.jersey.*</package-name>
+		<package-name>com.fasterxml.jackson.*</package-name>
+		<package-name>org.codehaus.jackson.*</package-name>
+
+		<package-name>weblogic.jaxrs.api.client.*</package-name> 
+		<package-name>weblogic.jaxrs.internal.api.*</package-name> 
+		<package-name>weblogic.jaxrs.dispatch.*</package-name> 
+		<package-name>weblogic.jaxrs.monitoring.util.*</package-name> 
+
+		<package-name>com.sun.istack.*</package-name>
+		<package-name>com.sun.xml.bind.*</package-name>
+		<package-name>com.sun.xml.txw2.*</package-name>
+
+	<!-- Viejo - - >
+		<package-name>com.sun.istack.*</package-name>
+		<package-name>com.sun.xml.messaging.saaj.*</package-name>
+		<package-name>com.sun.xml.bind.*</package-name>
+		<package-name>com.sun.xml.txw2.*</package-name>
+		<package-name>java_cup.runtime.*</package-name>
+		<package-name>javax.jws.*</package-name>
+		<package-name>javax.xml.bind.*</package-name>
+		<package-name>javax.xml.soap.*</package-name>
+		<package-name>javax.xml.ws.*</package-name>
+		<package-name>javax.ws.rs.*</package-name>
+		<package-name>org.apache.bcel.*</package-name>
+		<package-name>org.apache.html.dom.*</package-name>
+		<package-name>org.apache.env.*</package-name>
+		<package-name>org.apache.regexp.*</package-name>
+		<package-name>org.apache.resolver.*</package-name>
+		<package-name>org.apache.xalan.*</package-name>
+		<package-name>org.apache.xerces.*</package-name>
+		<package-name>org.apache.xpath.*</package-name>
+		<package-name>org.apache.xml.dtm.*</package-name>
+		<package-name>org.apache.xml.res.*</package-name>
+		<package-name>org.apache.xml.serialize.*</package-name>
+		<package-name>org.apache.xml.serializer.*</package-name>
+		<package-name>org.apache.xml.utils.*</package-name>
+		<package-name>org.apache.wml.*</package-name>
+		<package-name>org.apache.ws.axis.security.*</package-name>
+		<package-name>org.bouncycastle.*</package-name>
+		<package-name>org.jvnet.mimepull.*</package-name>
+		<package-name>org.w3c.dom.html.*</package-name> -->
+
+		<!-- Configuracion para Bean Validation -->
+		<package-name>javax.validation.*</package-name>
+		<package-name>org.hibernate.validator.*</package-name>
+	</prefer-application-packages>
+
+	<prefer-application-resources>
+		<resource-name>META-INF/services/javax.ws.rs.ext.RuntimeDelegate</resource-name>
+		<resource-name>META-INF/services/javax.xml.ws.spi.Provider</resource-name>
+		<resource-name>META-INF/services/org.apache.cxf.bus.factory</resource-name>
+		<resource-name>META-INF/jax-ws-catalog.xml</resource-name>
+
+		<resource-name>META-INF/services/javax.ws.rs.ext.*</resource-name>
+		<resource-name>META-INF/services/javax.enterprise.inject.spi.Extension</resource-name>
+		<resource-name>META-INF/services/javax.servlet.ServletContainerInitializer</resource-name>
+		
+		<!-- Evitar el Jersey del Servidor -->
+		<resource-name>META-INF/services/com.sun.jersey.spi.*</resource-name>
+		<resource-name>META-INF/services/org.glassfish.jersey.*</resource-name>
+
+		<!-- Evitar el JAXB con Eclipselink del Servidor -->
+		<resource-name>META-INF/services/javax.xml.bind.*</resource-name>
+		
+		<!-- Configuracion para Bean Validation -->
+		<resource-name>META-INF/services/javax.validation.spi.ValidationProvider</resource-name>
+
+	<!-- Viejo - - >
+	<! - - Ficheros: CXF-all.jar, jaxb-impl.jar, saaj-impl.jar, wstx-asl.jar, xalan.jar, xercesImpl.jar - - >
+		<resource-name>META-INF/services/javax.xml.datatype.DatatypeFactory</resource-name>
+		<resource-name>META-INF/services/javax.xml.parsers.SAXParserFactory</resource-name>
+		<resource-name>META-INF/services/javax.xml.parsers.DocumentBuilderFactory</resource-name>
+		<resource-name>META-INF/services/javax.xml.soap.MessageFactory</resource-name>
+		<resource-name>META-INF/services/javax.xml.soap.MetaFactory</resource-name>
+		<resource-name>META-INF/services/javax.xml.soap.SOAPConnectionFactory</resource-name>
+		<resource-name>META-INF/services/javax.xml.soap.SOAPFactory</resource-name>
+		<resource-name>META-INF/services/javax.xml.stream.XMLEventFactory</resource-name>
+		<resource-name>META-INF/services/javax.xml.stream.XMLInputFactory</resource-name>
+		<resource-name>META-INF/services/javax.xml.stream.XMLOutputFactory</resource-name>
+		<resource-name>META-INF/services/javax.xml.transform.TransformerFactory</resource-name>
+		<resource-name>META-INF/services/javax.xml.validation.SchemaFactory</resource-name>
+		<resource-name>META-INF/services/javax.xml.xpath.XPathFactory</resource-name>
+		<resource-name>META-INF/services/org.apache.xalan.extensions.bsf.BSFManager</resource-name>
+		<resource-name>META-INF/services/org.codehaus.stax2.validation.XMLValidationSchemaFactory.dtd</resource-name>
+		<resource-name>META-INF/services/org.codehaus.stax2.validation.XMLValidationSchemaFactory.relaxng</resource-name>
+		<resource-name>META-INF/services/org.apache.xml.dtm.DTMManager</resource-name>
+		<resource-name>META-INF/services/org.xml.sax.driver</resource-name>
+		<resource-name>META-INF/services/org.w3c.dom.DOMImplementationSourceList</resource-name> -->
+	</prefer-application-resources>
+
+</weblogic-application>

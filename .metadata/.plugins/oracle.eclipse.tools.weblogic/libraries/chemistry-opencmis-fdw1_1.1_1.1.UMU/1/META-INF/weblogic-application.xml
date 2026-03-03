@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogic-application
+	xmlns="http://xmlns.oracle.com/weblogic/weblogic-application"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/javaee_5.xsd http://xmlns.oracle.com/weblogic/weblogic-application http://xmlns.oracle.com/weblogic/weblogic-application/1.5/weblogic-application.xsd">
+
+	<!--weblogic-version:12.1.2 -->
+	<!-- Origen de la importacion: https://metro.java.net/guide/ch02.html#weblogic-10 -->
+	<prefer-application-packages>
+		<!-- Alfresco OpenCMIS Extension -->
+		<package-name>org.alfresco.cmis.client.*</package-name>
+
+		<!-- Chemistry OpenCMIS APIs -->
+		<package-name>org.apache.chemistry.opencmis.*</package-name>
+	</prefer-application-packages>
+
+	<prefer-application-resources>
+		<resource-name>wsdl/cmis10/*</resource-name>
+		<resource-name>wsdl/cmis11/*</resource-name>
+	</prefer-application-resources>
+
+</weblogic-application>

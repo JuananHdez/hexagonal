@@ -1,0 +1,6 @@
+package es.um.atica.umufly.vuelos.application.usecase.cancelarreservas;
+
+
+public class CancelarReservasCommandHandler {
+
+}

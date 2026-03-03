@@ -1,0 +1,17 @@
+package es.um.atica.umufly.vuelos.application.usecase.obtenervuelos;
+
+import es.um.atica.fundewebjs.umubus.domain.cqrs.QueryHandler;
+import es.um.atica.umufly.vuelos.application.dto.VueloAmpliadoDTO;
+import es.um.atica.umufly.vuelos.application.port.ReservasVueloReadRepository;
+import es.um.atica.umufly.vuelos.domain.model.Vuelo;
+
+public class ObtenerVuelosQueryHandler implements QueryHandler<Vuelo, ObtenerVuelosQuery> {
+
+	private final ReservasVueloReadRepository reservasVueloReadRepository;
+
+	@Override
+	public Vuelo handle( ObtenerVuelosQuery query ) throws Exception {
+		return reservasVueloReadRepository.findReservaIdByVueloIdAndPasajero( query.getDocumentoIdentidad(), query.getIdReserva() );
+	}
+
+}

@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Build-timestamp: 08/11/2018-14:34
+Implementation-Title: Autenticacion con Clave Weblogic 12.2 Shared Lib
+  - EAR
+Implementation-Version: 1.0.UMU
+Implementation-Vendor-Id: org.um.atica.fundeweb.weblogic.weblogic-shar
+ ed-libs.clave
+Build-Jdk: 1.7.0_181
+Built-By: juanmiguel.bernal
+Specification-Title: Autenticacion con Clave Weblogic 12.2 Shared Lib 
+ - EAR
+Created-By: Apache Maven 3.0.5
+Specification-Version: 1.0
+Extension-Name: clave-fdw1
+Archiver-Version: Plexus Archiver
+

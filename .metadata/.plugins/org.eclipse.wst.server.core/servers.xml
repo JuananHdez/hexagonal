@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<servers>
+  
+  <server RUN_WEB_MODULE_FROM_WORKSPACE="true" auto-publish-setting="1" deployment_targets="AdminServer-UM," hostname="localhost" id="Oracle WebLogic Server 12c R2 (12.2.1.4) [fundeweb]" name="Oracle WebLogic Server 12c R2 (12.2.1.4) [fundeweb]" runtime-id="Oracle WebLogic Server 12c R2 (12.2.1.4)" server-type="weblogic.server" server-type-id="weblogic.server" start-timeout="480" stop-timeout="240" timestamp="1" weblogic_domain_path="C:\FundeWeb\2.1\servidores\wls12214_dev\dominios\fundeweb" weblogic_host_name="localhost" weblogic_is_remote="false" weblogic_port="8001" weblogic_use_bootprop="true" weblogic_use_config_xml="true"/>
+</servers>

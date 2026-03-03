@@ -1,0 +1,16 @@
+cxfJ2WSGenerateRequestWrapperAnnotation=true
+cxfJ2WSGenerateResponseWrapperAnnotation=true
+cxfJ2WSGenerateWebMethodAnnotation=true
+cxfJ2WSGenerateWebParamAnnotation=true
+cxfJ2WSGenerateWebResultAnnotation=true
+cxfJ2WSSoap12Binding=true
+cxfRuntimeLocations=C:\\FundeWeb\\2.1\\utilidades\\apache-cxf-2
+cxfRuntimeTypes=Apache CXF
+cxfRuntimeVersions=2.7.18
+cxfW2JGenerateServer=true
+cxfW2JProcessSOAPHeaders=true
+defaultRuntimeLocation=C:\\FundeWeb\\2.1\\utilidades\\apache-cxf-2
+defaultRuntimeType=Apache CXF
+defaultRuntimeVersion=2.7.18
+eclipse.preferences.version=1
+xjcMarkGenerated=true

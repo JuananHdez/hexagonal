@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.2
+Created-By: 1.7.0_371-b07 (Oracle Corporation)
+Built-By: JuanMiguel.Bernal
+Specification-Title: API de acceso por RMI a los servicios de ATICA v1
+ .0 - EAR
+Specification-Version: 1.0
+Specification-Vendor: Universidad de Murcia - ATICA - MNCS
+Implementation-Title: API de acceso por RMI a los servicios de ATICA v
+ 2.0.128 - EAR
+Implementation-Version: 1.0.0
+Implementation-Vendor: Universidad de Murcia - ATICA - MNCS
+Implementation-Vendor-Id: org.um.atica.fundeweb.weblogic-shared-libs.e
+ jb_interfaces
+Implementation-Version-Original: 2.0.128
+Extension-Name: ejb_interfaces-0
+Entorno: local
+

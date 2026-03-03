@@ -1,0 +1,13 @@
+package es.um.atica.umufly.vuelos.application.usecase.crearreservas;
+
+import java.util.Optional;
+
+import es.um.atica.fundewebjs.umubus.domain.cqrs.Query;
+
+public class ObtenerReserva extends Query<Optional<Usuario>>{
+	private String usuarioId;
+	//Definimos constructor privado
+	public static ObtenerReserva of(String usuarioId){
+		return new ObtenerReserva(usuarioId);
+	}
+}

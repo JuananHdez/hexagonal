@@ -1,0 +1,16 @@
+1771949749730	Rename type 'ReservaVuelosRepository'
+1771950756943	Rename type 'ReservaVuelosPersistenceAdapter'
+1771950821809	Rename type 'ReservasVuelosPersistenceAdapter'
+1771951973385	Rename package 'es.um.atica.umufly.vuelos.adaptors.api.rest'
+1771952897232	Rename type 'VuelosEndpoint'
+1771952968127	Rename type 'VuelosEndpointv1'
+1772037503130	Rename type 'CreaReservas'
+1772037525329	Move compilation unit
+1772037600223	Rename compilation unit 'ObtenerReserva.java'
+1772041737262	Copy compilation unit
+1772041749444	Rename type 'ReservasEndpointV2'
+1772044922439	Copy compilation unit
+1772044976643	Copy compilation unit
+1772045030206	Delete element
+1772045585728	Rename type 'FormalizacionReservasVueloPort'
+1772045616358	Rename type 'VuelosRepository'

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogic-application
+	xmlns="http://xmlns.oracle.com/weblogic/weblogic-application"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/javaee_5.xsd http://xmlns.oracle.com/weblogic/weblogic-application http://xmlns.oracle.com/weblogic/weblogic-application/1.5/weblogic-application.xsd">
+
+	<!--weblogic-version:12.1.2 -->
+	<!-- Origen de la importacion: https://metro.java.net/guide/ch02.html#weblogic-10 -->
+	<prefer-application-packages>
+		<!-- Metro API -->
+		<package-name>javax.jws.*</package-name>
+		<package-name>javax.xml.bind.*</package-name>
+		<package-name>javax.xml.soap.*</package-name>
+		<package-name>javax.xml.ws.*</package-name>
+		<!-- FIN - Metro API -->
+
+		<!-- Metro Extra API -->
+		<package-name>javax.xml.registry.*</package-name>
+		<package-name>javax.xml.rpc.*</package-name>
+		<!-- FIN - Metro Extra API -->
+
+		<!-- Metro Extra - - >
+		<package-name>com.sun.enterprise.web.ara.*</package-name>
+		<package-name>com.sun.enterprise.web.connector.grizzly.*</package-name>
+		<package-name>com.sun.enterprise.web.portunif.*</package-name>
+		<package-name>com.sun.mail.*</package-name>
+		<package-name>javax.annotation.*</package-name>
+		<package-name>javax.mail.*</package-name>
+		<package-name>javax.security.auth.message.*</package-name>
+		<! - - FIN - Metro Extra -->
+		
+		<!-- Metro RT -->
+		<package-name>com.ctc.wstx.*</package-name>
+		<package-name>com.oracle.webservices.*</package-name>
+ 		<package-name>com.oracle.xmlns.webservices.jaxws_databinding.*</package-name>
+ 		<package-name>com.sun.istack.*</package-name>
+<!--  		<package-name>com.sun.org.apache.xml.internal.*</package-name> -->
+ 		<package-name>com.sun.org.apache.xml.internal.resolver.*</package-name>
+ 		<package-name>com.sun.org.apache.xml.internal.security.*</package-name>
+<!--  		<package-name>com.sun.wsit.security.*</package-name> -->
+		<package-name>com.sun.wsit.*</package-name>
+<!--  		<package-name>com.sun.xml.*</package-name> -->
+		<package-name>com.sun.xml.bind.*</package-name>
+		<package-name>com.sun.xml.fastinfoset.*</package-name>
+		<package-name>com.sun.xml.messaging.saaj.*</package-name>
+		<package-name>com.sun.xml.registry.*</package-name>
+		<package-name>com.sun.xml.rpc.*</package-name>
+		<package-name>com.sun.xml.security.core.ai.*</package-name>
+		<package-name>com.sun.xml.security.core.dsig.*</package-name>
+		<package-name>com.sun.xml.security.core.xen.*</package-name>
+		<package-name>com.sun.xml.stream.buffer.*</package-name>
+		<package-name>com.sun.xml.txw2.*</package-name>
+		<package-name>com.sun.xml.ws.*</package-name>
+		<package-name>com.sun.xml.wss.*</package-name>
+		<package-name>com.sun.xml.xwss.*</package-name>
+		<package-name>javanet.staxutils.*</package-name>
+		<package-name>org.codehaus.stax2.*</package-name>
+		<package-name>org.glassfish.external.amx.*</package-name>
+		<package-name>org.glassfish.external.arc.*</package-name>
+		<package-name>org.glassfish.external.probe.provider.*</package-name>
+		<package-name>org.glassfish.external.statistics.*</package-name>
+		<package-name>org.glassfish.gmbal.*</package-name>
+		<package-name>org.glassfish.ha.store.*</package-name>
+		<package-name>org.jcp.xml.dsig.internal.*</package-name>
+<!-- 		<package-name>org.jvnet.*</package-name> -->
+		<package-name>org.jvnet.fastinfoset.*</package-name>
+		<package-name>org.jvnet.mimepull.*</package-name>
+		<package-name>org.jvnet.staxex.*</package-name>
+		<!-- FIN - Metro RT -->
+
+        <!-- Metro Tools -->
+        <package-name>com.sun.codemodel.*</package-name>
+<!--         <package-name>com.sun.istack.tools.*</package-name> ya esta en el RT incluida-->
+		<package-name>com.sun.tools.jxc.*</package-name>
+		<package-name>com.sun.tools.ws.*</package-name>
+		<package-name>com.sun.tools.xjc.*</package-name>
+		<package-name>com.sun.xml.dtdparser.*</package-name>
+		<package-name>com.sun.xml.xsom.*</package-name>
+		<package-name>org.kohsuke.*</package-name>
+		<package-name>org.relaxng.datatype.*</package-name>
+		<!-- FIN - Metro Tools -->
+       
+        <!-- stax-api-1.0-2 -->
+<!--         <package-name>javax.xml.stream.*</package-name> -->
+        <!-- FIN - stax-api-1.0-2 -->
+
+<!-- NO EXISTEN ESTOS PAQUETES EN LAS LIBRERIAS IMPORTADAS        
+        <package-name>com.sun.msv.datatype.*</package-name>
+        <package-name>com.sun.msv.driver.*</package-name>
+        <package-name>com.sun.msv.grammar.*</package-name>
+        <package-name>com.sun.msv.reader.*</package-name>
+        <package-name>com.sun.msv.relaxns.*</package-name>
+        <package-name>com.sun.msv.scanner.*</package-name>
+        <package-name>com.sun.msv.util.*</package-name>
+        <package-name>com.sun.msv.verifier.*</package-name>
+        <package-name>com.sun.msv.writer.*</package-name>
+        <package-name>javax.xml.activation.*</package-name>
+        <package-name>javax.xml.annotation.*</package-name>
+        <package-name>javax.xml.mail.*</package-name>
+        <package-name>javax.xml.security.*</package-name>        
+        <package-name>jp.gr.xml.*</package-name>
+        <package-name>org.iso_relax.*</package-name>
+ -->
+	</prefer-application-packages>
+
+	<prefer-application-resources>
+        <resource-name>META-INF/services/javax.servlet.ServletContainerInitializer</resource-name>
+        <resource-name>META-INF/services/javax.xml.ws.*</resource-name>
+        <resource-name>META-INF/services/com.sun.xml.ws.*</resource-name>
+        <resource-name>META-INF/services/com.sun.tools.ws.*</resource-name>
+	</prefer-application-resources>
+
+</weblogic-application>

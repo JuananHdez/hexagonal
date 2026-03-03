@@ -1,0 +1,28 @@
+package es.um.atica.umufly.vuelos.application.usecase.listarVuelos;
+
+import org.springframework.data.domain.Page;
+
+import es.um.atica.fundewebjs.umubus.domain.cqrs.QueryHandler;
+import es.um.atica.umufly.vuelos.application.dto.VueloAmpliadoDTO;
+import es.um.atica.umufly.vuelos.application.mapper.ApplicationMapper;
+import es.um.atica.umufly.vuelos.application.port.VuelosReadRepository;
+import es.um.atica.umufly.vuelos.domain.model.Vuelo;
+
+public class ListarVuelosQueryHandler implements QueryHandler<Page<VueloAmpliadoDTO>, ListarVuelosQuery> {
+
+	private final VuelosReadRepository vueloReadRepository;
+
+	public ListarVuelosQueryHandler( VuelosReadRepository vueloReadRepository ) {
+		this.vueloReadRepository = vueloReadRepository;
+	}
+
+	@Override
+	public Page<VueloAmpliadoDTO> handle( ListarVuelosQuery query ) throws Exception {
+		Page<Vuelo> vuelos = vueloReadRepository.findVuelos( query.getPagina(), query.getTamanioPagina() );
+		
+		 return vuelos.map(vuelo -> 
+         ApplicationMapper.vueloToDTO(vuelo, null)
+ );
+	}
+
+}

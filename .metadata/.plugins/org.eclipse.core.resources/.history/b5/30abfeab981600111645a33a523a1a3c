@@ -1,0 +1,23 @@
+package es.um.atica.umufly.parking.domain.model;
+
+
+public class Importe {
+	private final BigDecimal valor;
+
+    public Importe(BigDecimal valor) {
+        if (valor.compareTo(BigDecimal.ZERO) < 0) {
+            throw new IllegalArgumentException("El importe no puede ser negativo");
+        }
+        this.valor = Objects.requireNonNull(valor);
+    }
+
+    public Importe aplicarDescuento(BigDecimal porcentaje) {
+        BigDecimal descuento = valor.multiply(porcentaje);
+        BigDecimal nuevoValor = valor.subtract(descuento);
+        return new Importe(nuevoValor.setScale(2, RoundingMode.HALF_UP));
+    }
+
+    public BigDecimal getValor() {
+        return valor;
+    }
+}

@@ -1,0 +1,6 @@
+package es.um.atica.umufly.vuelos.application.usecase.crearreservas;
+
+
+public class CreaReservasCommand {
+
+}

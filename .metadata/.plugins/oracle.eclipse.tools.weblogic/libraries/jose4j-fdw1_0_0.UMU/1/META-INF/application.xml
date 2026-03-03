@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd" version="6">
+  <application-name>jose4j-fdw1</application-name>
+  <description>Project for JOSE4J 0.x Shared Lib for Weblogic 12.2</description>
+  <display-name>jose4j-fdw1</display-name>
+  <module>
+    <java>lib/dummy-module-1.0.0.jar</java>
+  </module>
+  <library-directory>lib</library-directory>
+</application>

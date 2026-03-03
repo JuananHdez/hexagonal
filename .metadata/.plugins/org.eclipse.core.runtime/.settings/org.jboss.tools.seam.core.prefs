@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+org.jboss.tools.seam.core.runtime.list=name|JBoss Seam 2.3|version|2.3|homeDir|C:\\FundeWeb\\2.1\\utilidades\\jboss-seam-2.3|default|true,name|JBoss Seam 2.2|version|2.2|homeDir|C:\\FundeWeb\\2.1\\utilidades\\jboss-seam-2.2|default|true
+org.jboss.tools.seam.core.validator.problem.nonUniqueComponentName=warning
+seam.packageStructure=editable
+seam.scopePresentation=label

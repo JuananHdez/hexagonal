@@ -1,0 +1,24 @@
+package es.um.atica.umufly.parking.domain.model;
+
+
+public class PeriodoEstacionamiento {
+
+	 private final LocalDateTime inicio;
+	    private final LocalDateTime fin;
+
+	    public Periodo(LocalDateTime inicio, LocalDateTime fin) {
+	        if (fin.isBefore(inicio)) {
+	            throw new IllegalArgumentException("La fecha fin no puede ser anterior al inicio");
+	        }
+	        this.inicio = Objects.requireNonNull(inicio);
+	        this.fin = Objects.requireNonNull(fin);
+	    }
+
+	    public LocalDateTime getInicio() {
+	        return inicio;
+	    }
+
+	    public LocalDateTime getFin() {
+	        return fin;
+	    }
+}

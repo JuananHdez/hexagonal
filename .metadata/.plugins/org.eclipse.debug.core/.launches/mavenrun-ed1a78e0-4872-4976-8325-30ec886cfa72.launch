@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.m2e.Maven2LaunchConfigurationType">
+    <booleanAttribute key="M2_BATCH" value="true"/>
+    <stringAttribute key="M2_GOALS" value="-U archetype:generate"/>
+    <listAttribute key="M2_PROPERTIES">
+        <listEntry value="groupId=es.um.atica"/>
+        <listEntry value="version=0.0.1-SNAPSHOT"/>
+        <listEntry value="package=es.um.atica.prueba"/>
+        <listEntry value="datasource_name=_Nombre_Aplicacion_ DataSource"/>
+        <listEntry value="bbdd_default_schema=_Nombre_Esquema_BBDD_"/>
+        <listEntry value="archetypeGroupId=es.um.atica.fundeweb"/>
+        <listEntry value="archetypeArtifactId=archetype-fundeweb_2-seam_2_3"/>
+        <listEntry value="archetypeVersion=2.0.19"/>
+        <listEntry value="artifactId=prueba"/>
+        <listEntry value="outputDirectory=C:\FundeWeb\2.1\workspace"/>
+    </listAttribute>
+    <booleanAttribute key="M2_SAVE_BEFORE_LAUNCH" value="false"/>
+    <booleanAttribute key="org.eclipse.debug.ui.private" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="C:\Users\UM\AppData\Local\Temp\m2e-archetypeGenerator11984166782866555241"/>
+</launchConfiguration>

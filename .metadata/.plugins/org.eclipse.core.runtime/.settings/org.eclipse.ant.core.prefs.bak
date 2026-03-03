@@ -1,0 +1,16 @@
+additional_entries=@FUNDEWEB_HOME_4@FundeWeb\\2.1\\java\\jdk1.8.0\\lib\\tools.jar,@FUNDEWEB_HOME_5@FundeWeb/2.1/utilidades/ant-contrib/ant-contrib-1.0b3.jar,@FUNDEWEB_HOME_5@FundeWeb/2.1/utilidades/antelope-tasks-3.5/AntelopeTasks_3.5.jar,@FUNDEWEB_HOME_5@FundeWeb/2.1/utilidades/maven-ant-tasks-2.1/maven-ant-tasks-2.1.3.jar,@FUNDEWEB_HOME_5@FundeWeb/2.1/utilidades/svnant-1.3/lib/svnant.jar,@FUNDEWEB_HOME_5@FundeWeb/2.1/utilidades/svnant-1.3/lib/svnClientAdapter.jar,
+eclipse.preferences.version=1
+properties=fundeweb.archiva.repository,fundeweb.maven.repository,fundeweb.java.home,fundeweb.maven.home,fundeweb.maven.user.settings,fundeweb.metro.home,fundeweb.seam22.home,fundeweb.seam23.home,fundeweb.utilidades.path,fundeweb.weblogic.home,fundeweb.enunciate.home,fundeweb.workspace,fundeweb.cxf.home,
+property.fundeweb.archiva.repository=https\://archiva.um.es/archiva/repository/FundeWeb/
+property.fundeweb.cxf.home=@FUNDEWEB_HOME_4@FundeWeb\\2.1\\utilidades\\apache-cxf-2
+property.fundeweb.enunciate.home=@FUNDEWEB_HOME_4@FundeWeb\\2.1\\utilidades\\enunciate
+property.fundeweb.java.home=@FUNDEWEB_HOME_4@FundeWeb\\2.1\\java\\jdk1.8.0
+property.fundeweb.maven.home=@FUNDEWEB_HOME_4@FundeWeb\\2.1\\utilidades\\apache-maven-3
+property.fundeweb.maven.repository=@FUNDEWEB_USER_HOME_4@FundeWeb\\maven_repository\\repository
+property.fundeweb.maven.user.settings=@FUNDEWEB_USER_HOME_4@FundeWeb\\maven_repository\\settings.xml
+property.fundeweb.metro.home=@FUNDEWEB_HOME_4@FundeWeb\\2.1\\utilidades\\metro-standalone-2.3
+property.fundeweb.seam22.home=@FUNDEWEB_HOME_4@FundeWeb\\2.1\\utilidades\\jboss-seam-2.2
+property.fundeweb.seam23.home=@FUNDEWEB_HOME_4@FundeWeb\\2.1\\utilidades\\jboss-seam-2.3
+property.fundeweb.utilidades.path=@FUNDEWEB_HOME_4@FundeWeb\\2.1\\utilidades
+property.fundeweb.weblogic.home=@FUNDEWEB_HOME_4@FundeWeb\\2.1\\servidores\\wls1221_dev
+property.fundeweb.workspace=${workspace_loc}

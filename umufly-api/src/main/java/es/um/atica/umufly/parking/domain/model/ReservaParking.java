@@ -1,0 +1,130 @@
+package es.um.atica.umufly.parking.domain.model;
+
+import java.time.LocalDateTime;
+import java.util.UUID;
+
+import es.um.atica.umufly.vuelos.domain.model.DocumentoIdentidad;
+
+// Agregado raíz
+public class ReservaParking {
+
+	private UUID id;
+	private DocumentoIdentidad identificadorPasajero;
+	private TipoReserva tipoReserva;
+	private PeriodoEstacionamiento periodoEstacionamiento;
+	private Importe importe;
+	private LocalDateTime fechaReserva;
+	private EstadoReserva estadoReserva;
+
+	public ReservaParking( UUID id, DocumentoIdentidad identificadorPasajero, TipoReserva tipoReserva, PeriodoEstacionamiento periodo, Importe importe, boolean tieneReservaVuelo ) {
+		this.id = id;
+		this.identificadorPasajero = identificadorPasajero;
+		this.tipoReserva = tipoReserva;
+		this.periodoEstacionamiento = periodo;
+		this.fechaReserva = LocalDateTime.now();
+		this.estadoReserva = EstadoReserva.ACTIVA;
+
+		// Regla de negocio: Descuento por reserva de vuelo
+		this.importe = calcularImporteInicial( importe, tieneReservaVuelo );
+
+	}
+
+	public static ReservaParking of( UUID uuid, DocumentoIdentidad identificadorPasajero, TipoReserva tipoReserva, PeriodoEstacionamiento periodo, Importe importe, boolean tieneReservaVUelo ) {
+		if ( uuid == null ) {
+			throw new IllegalArgumentException( "El id de la reserva no puede ser nulo" );
+		}
+
+		if ( identificadorPasajero == null ) {
+			throw new IllegalArgumentException( "El identificador del pasajero no puede ser nulo" );
+		}
+
+		if ( tipoReserva == null ) {
+			throw new IllegalArgumentException( "El tipo de reserva no puede ser nulo" );
+		}
+
+		if ( periodo == null ) {
+			throw new IllegalArgumentException( "El periodo de estacionamiento no puede ser nulo" );
+		}
+
+		if ( importe == null ) {
+			throw new IllegalArgumentException( "El importe no puede ser nulo" );
+		}
+
+		return new ReservaParking( uuid, identificadorPasajero, tipoReserva, periodo, importe, tieneReservaVUelo );
+	}
+
+	private Importe calcularImporteInicial( Importe base, boolean tieneReservaVuelo ) {
+		if ( tieneReservaVuelo ) {
+			return new Importe( base.valor() * 0.75 );
+		}
+		return base;
+	}
+
+	public void cancelar() {
+		// Regla de negocio: puede cancelar antes del inicio del periodo
+		if ( LocalDateTime.now().isAfter( periodoEstacionamiento.inicio() ) ) {
+			throw new IllegalStateException( "No se puede cancelar una reserva una vez iniciado el periodo" );
+		}
+		this.estadoReserva = EstadoReserva.CANCELADA;
+	}
+
+
+	// ===== GETTERS AND SETTERS =====
+
+	public UUID getId() {
+		return id;
+	}
+
+	public void setId( UUID id ) {
+		this.id = id;
+	}
+
+	public DocumentoIdentidad getIdentificadorPasajero() {
+		return identificadorPasajero;
+	}
+
+	public void setIdentificadorPasajero( DocumentoIdentidad identificadorPasajero ) {
+		this.identificadorPasajero = identificadorPasajero;
+	}
+
+	public TipoReserva getTipoReserva() {
+		return tipoReserva;
+	}
+
+	public void setTipoReserva( TipoReserva tipoReserva ) {
+		this.tipoReserva = tipoReserva;
+	}
+
+	public PeriodoEstacionamiento getPeriodo() {
+		return periodoEstacionamiento;
+	}
+
+	public void setPeriodo( PeriodoEstacionamiento periodo ) {
+		this.periodoEstacionamiento = periodo;
+	}
+
+	public Importe getImporte() {
+		return importe;
+	}
+
+	public void setImporte( Importe importe ) {
+		this.importe = importe;
+	}
+
+	public LocalDateTime getFechaReserva() {
+		return fechaReserva;
+	}
+
+	public void setFechaReserva( LocalDateTime fechaReserva ) {
+		this.fechaReserva = fechaReserva;
+	}
+
+	public EstadoReserva getEstadoReserva() {
+		return estadoReserva;
+	}
+
+	public void setEstadoReserva( EstadoReserva estadoReserva ) {
+		this.estadoReserva = estadoReserva;
+	}
+
+}

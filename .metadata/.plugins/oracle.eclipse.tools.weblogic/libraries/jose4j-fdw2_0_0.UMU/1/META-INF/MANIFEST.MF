@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Title: JOSE4J 0.x Weblogic 12.2 Shared Lib - WAR
+Implementation-Version: 0.UMU
+Implementation-Vendor-Id: org.um.atica.fundeweb.weblogic.weblogic-shar
+ ed-libs.jose4j
+Built-By: JuanMiguel.Bernal
+Build-Jdk: 1.7.0_181
+Specification-Title: JOSE4J 0.x Weblogic 12.2 Shared Lib - WAR
+Created-By: Apache Maven 3.0.5
+Specification-Version: 0
+Extension-Name: jose4j-fdw2
+Archiver-Version: Plexus Archiver
+

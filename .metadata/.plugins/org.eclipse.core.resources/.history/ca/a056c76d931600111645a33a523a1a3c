@@ -1,0 +1,62 @@
+package es.um.atica.umufly.vuelos.application.usecase.listarreservas;
+
+import java.util.Optional;
+import java.util.UUID;
+
+import org.springframework.data.domain.Page;
+
+import es.um.atica.fundewebjs.umubus.domain.cqrs.Query;
+import es.um.atica.umufly.vuelos.domain.model.DocumentoIdentidad;
+import es.um.atica.umufly.vuelos.domain.model.ReservaVuelo;
+
+public class ListarReservasQuery extends Query<Optional<Page<ReservaVuelo>>> {
+
+	private DocumentoIdentidad documentoIdentidad;
+	private UUID idReserva;
+	private int pagina;
+	private int tamanioPagina;
+
+	public ListarReservasQuery( DocumentoIdentidad documentoIdentidad, UUID idReserva, int pagina, int tamanioPagina ) {
+		this.documentoIdentidad = documentoIdentidad;
+		this.idReserva = idReserva;
+		this.pagina = pagina;
+		this.tamanioPagina = tamanioPagina;
+	}
+
+	public static ListarReservasQuery of( DocumentoIdentidad documentoIdentidad, UUID idReserva, int pagina, int tamanioPagina ) {
+		return new ListarReservasQuery( documentoIdentidad, idReserva, pagina, tamanioPagina );
+	}
+
+	public DocumentoIdentidad getDocumentoIdentidad() {
+		return documentoIdentidad;
+	}
+
+	public void setDocumentoIdentidad( DocumentoIdentidad documentoIdentidad ) {
+		this.documentoIdentidad = documentoIdentidad;
+	}
+
+	public UUID getIdReserva() {
+		return idReserva;
+	}
+
+	public void setIdReserva( UUID idReserva ) {
+		this.idReserva = idReserva;
+	}
+
+	public int getPagina() {
+		return pagina;
+	}
+
+	public void setPagina( int pagina ) {
+		this.pagina = pagina;
+	}
+
+	public int getTamanioPagina() {
+		return tamanioPagina;
+	}
+
+	public void setTamanioPagina( int tamanioPagina ) {
+		this.tamanioPagina = tamanioPagina;
+	}
+
+}

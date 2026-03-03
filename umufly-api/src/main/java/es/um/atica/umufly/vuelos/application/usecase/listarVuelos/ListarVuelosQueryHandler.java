@@ -1,0 +1,34 @@
+package es.um.atica.umufly.vuelos.application.usecase.listarVuelos;
+
+import java.util.Collections;
+import java.util.Map;
+import java.util.UUID;
+
+import org.springframework.data.domain.Page;
+
+import es.um.atica.fundewebjs.umubus.domain.cqrs.QueryHandler;
+import es.um.atica.umufly.vuelos.application.dto.VueloAmpliadoDTO;
+import es.um.atica.umufly.vuelos.application.mapper.ApplicationMapper;
+import es.um.atica.umufly.vuelos.application.port.ReservasVueloReadRepository;
+import es.um.atica.umufly.vuelos.application.port.VuelosReadRepository;
+import es.um.atica.umufly.vuelos.domain.model.Vuelo;
+
+public class ListarVuelosQueryHandler implements QueryHandler<Page<VueloAmpliadoDTO>, ListarVuelosQuery> {
+
+	private final VuelosReadRepository vueloReadRepository;
+	private final ReservasVueloReadRepository reservasVueloReadRepository;
+
+	public ListarVuelosQueryHandler( VuelosReadRepository vueloReadRepository, ReservasVueloReadRepository reservasVueloReadRepository ) {
+		this.vueloReadRepository = vueloReadRepository;
+		this.reservasVueloReadRepository = reservasVueloReadRepository;
+	}
+
+	@Override
+	public Page<VueloAmpliadoDTO> handle( ListarVuelosQuery query ) throws Exception {
+		Page<Vuelo> vuelos = vueloReadRepository.findVuelos( query.getPagina(), query.getTamanioPagina() );
+		Map<UUID, UUID> vuelosReserva = query.getDocumentoIdentidad() != null ? reservasVueloReadRepository.findReservasIdByVueloIdAndPasajero( query.getDocumentoIdentidad(), vuelos.map( Vuelo::getId ).getContent() ) : Collections.emptyMap();
+
+		return vuelos.map( vuelo -> ApplicationMapper.vueloToDTO( vuelo, vuelosReserva.get( vuelo.getId() ) ) );
+	}
+
+}

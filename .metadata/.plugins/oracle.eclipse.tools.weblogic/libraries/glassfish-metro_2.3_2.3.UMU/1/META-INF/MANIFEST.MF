@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Build-timestamp: 08/11/2018-12:18
+Implementation-Title: Glassfish Metro 23 for Weblogic 12.2 Shared Lib 
+ - EAR
+Implementation-Version: 2.3.UMU
+Implementation-Vendor-Id: org.um.atica.fundeweb.weblogic.weblogic-shar
+ ed-libs.glassfish-metro
+Implementation-Version-Original: 2.3.1
+Build-Jdk: 1.7.0_181
+Built-By: juanmiguel.bernal
+Specification-Title: Glassfish Metro 23 for Weblogic 12.2 Shared Lib -
+  EAR
+Created-By: Apache Maven 3.0.5
+Specification-Version: 2.3
+Extension-Name: glassfish-metro
+Archiver-Version: Plexus Archiver
+

@@ -1,0 +1,16 @@
+package es.um.atica.umufly.vuelos.application.usecase.listarVuelos;
+
+import es.um.atica.fundewebjs.umubus.domain.cqrs.QueryHandler;
+import es.um.atica.umufly.vuelos.application.dto.VueloAmpliadoDTO;
+import es.um.atica.umufly.vuelos.application.port.VuelosReadRepository;
+import es.um.atica.umufly.vuelos.application.usecase.obtenervuelos.ObtenerVuelosQuery;
+
+public class ListarVuelosQueryHandler implements QueryHandler<VueloAmpliadoDTO, ListarVuelosQuery> {
+
+	private final VuelosReadRepository vueloReadRepository;
+
+	public ObtenerVuelosQueryHandler( VuelosReadRepository vueloReadRepository ) {
+		this.vueloReadRepository = vueloReadRepository;
+	}{
+
+}

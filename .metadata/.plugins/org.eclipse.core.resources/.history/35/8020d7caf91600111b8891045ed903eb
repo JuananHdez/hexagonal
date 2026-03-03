@@ -1,0 +1,27 @@
+package es.um.atica.umufly.parking.domain.model;
+
+import java.time.LocalDateTime;
+
+public record PeriodoEstacionamiento( LocalDateTime inicio, LocalDateTime fin ) {
+
+	public public record Periodo( LocalDateTime inicio, LocalDateTime fin ) {
+
+		public Periodo {
+			if ( inicio == null || fin == null ) {
+				throw new IllegalArgumentException( "Inicio y fin no pueden ser nulos" );
+			}
+			if ( inicio.isAfter( fin ) ) {
+				throw new IllegalArgumentException( "El inicio debe ser anterior al fin" );
+			}
+		}
+	}
+
+	{
+		if ( inicio == null || fin == null ) {
+			throw new IllegalArgumentException( "Inicio y fin no pueden ser nulos" );
+		}
+		if ( inicio.isAfter( fin ) ) {
+			throw new IllegalArgumentException( "El inicio debe ser anterior al fin" );
+		}
+	}
+}

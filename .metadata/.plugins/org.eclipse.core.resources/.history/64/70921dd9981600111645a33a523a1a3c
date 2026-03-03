@@ -1,0 +1,102 @@
+package es.um.atica.umufly.parking.domain.model;
+
+import java.math.BigDecimal;
+import java.sql.Timestamp;
+import java.time.LocalDateTime;
+import java.util.UUID;
+
+import es.um.atica.umufly.vuelos.domain.model.DocumentoIdentidad;
+
+// Agregado raíz
+public class ReservaParking {
+
+	private UUID id;
+	private DocumentoIdentidad identificadorTitular;
+	private TipoReserva tipoReserva;
+	private PeriodoEstacionamiento periodo;
+	private Importe importe;
+	private Timestamp fechaReserva;
+	private EstadoReserva estadoReserva;
+	
+	public ReservaParking( UUID id, DocumentoIdentidad identificadorTitular, TipoReserva tipoReserva, PeriodoEstacionamiento periodo, Importe importe, Timestamp fechaReserva, EstadoReserva estadoReserva ) {
+		super();
+		this.id = id;
+		this.identificadorTitular = identificadorTitular;
+		this.tipoReserva = tipoReserva;
+		this.periodo = periodo;
+		this.importe = importe;
+		this.fechaReserva = fechaReserva;
+		this.estadoReserva = estadoReserva;
+	}
+
+	
+	public UUID getId() {
+		return id;
+	}
+
+	
+	public void setId( UUID id ) {
+		this.id = id;
+	}
+
+	
+	public DocumentoIdentidad getIdentificadorTitular() {
+		return identificadorTitular;
+	}
+
+	
+	public void setIdentificadorTitular( DocumentoIdentidad identificadorTitular ) {
+		this.identificadorTitular = identificadorTitular;
+	}
+
+	
+	public TipoReserva getTipoReserva() {
+		return tipoReserva;
+	}
+
+	
+	public void setTipoReserva( TipoReserva tipoReserva ) {
+		this.tipoReserva = tipoReserva;
+	}
+
+	
+	public PeriodoEstacionamiento getPeriodo() {
+		return periodo;
+	}
+
+	
+	public void setPeriodo( PeriodoEstacionamiento periodo ) {
+		this.periodo = periodo;
+	}
+
+	
+	public Importe getImporte() {
+		return importe;
+	}
+
+	
+	public void setImporte( Importe importe ) {
+		this.importe = importe;
+	}
+
+	
+	public Timestamp getFechaReserva() {
+		return fechaReserva;
+	}
+
+	
+	public void setFechaReserva( Timestamp fechaReserva ) {
+		this.fechaReserva = fechaReserva;
+	}
+
+	
+	public EstadoReserva getEstadoReserva() {
+		return estadoReserva;
+	}
+
+	
+	public void setEstadoReserva( EstadoReserva estadoReserva ) {
+		this.estadoReserva = estadoReserva;
+	}	
+
+}

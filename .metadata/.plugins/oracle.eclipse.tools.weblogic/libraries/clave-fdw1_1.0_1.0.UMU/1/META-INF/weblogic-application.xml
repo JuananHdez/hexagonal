@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogic-application
+	xmlns="http://xmlns.oracle.com/weblogic/weblogic-application"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/javaee_5.xsd http://xmlns.oracle.com/weblogic/weblogic-application http://xmlns.oracle.com/weblogic/weblogic-application/1.5/weblogic-application.xsd">
+
+	<!--weblogic-version:12.2 -->
+	<prefer-application-packages>
+		<!-- bcprov-jdk15on-1.65.01-jdk8-.jar -->
+		<package-name>org.bouncycastle.*</package-name>
+
+		<!-- eidas-*-1.4.3-clave.jar -->
+		<package-name>eu.eidas.*</package-name>
+
+		<!-- commons-httpclient-3.2.jar, not-yet-commons-ssl-0.3.9.1.jar -->
+		<package-name>org.apache.commons.httpclient.*</package-name>
+		<package-name>org.apache.commons.ssl.*</package-name>
+
+		<!-- encoder-1.1.1.jar, esapi-2.1.0.2.jar -->
+		<package-name>org.owasp.encoder.*</package-name>
+		<package-name>org.owasp.esapi.*</package-name>
+
+		<!-- guava-27.2-jre.jar -->
+		<package-name>com.google.common.*</package-name>
+		<package-name>com.google.common.thirdparty.publicsuffix.*</package-name>
+
+		<!-- icu4j-57.1.jar -->
+		<package-name>com.ibm.icu.*</package-name>
+
+		<!-- opensaml-2.6.7.jar, openws-1.5.7.jar, xmltooling-1.4.7.jar -->
+		<package-name>org.opensaml.*</package-name>
+
+		<!-- velocity-1.7.1.jar -->
+		<package-name>org.apache.velocity.*</package-name>
+
+		<!-- wss4j-1.6.19.jar -->
+		<package-name>org.apache.ws.security.*</package-name>
+
+		<!-- xmlsec-2.0.11.jar -->
+		<package-name>javax.xml.crypto.*</package-name>
+		<package-name>org.apache.jcp.xml.dsig.internal.*</package-name>
+		<package-name>org.apache.xml.security.*</package-name>
+	</prefer-application-packages>
+
+	<prefer-application-resources>
+		<!-- bcprov-jdk15on-1.65.01-jdk8-.jar -->
+		<resource-name>META-INF/services/java.security.Provider</resource-name>
+
+		<!-- eidas-*-1.4.3-clave.jar -->
+		<resource-name>eidas/common/CCTS_CCT_SchemaModule-2.1.xsd</resource-name>
+		<resource-name>eidas/common/UBL-UnqualifiedDataTypes-2.1.xsd</resource-name>
+		<resource-name>eidas/CoreVocabularies-*-1.1.xsd</resource-name>
+		<resource-name>eidas/saml_eidas_*.xsd</resource-name>
+		<resource-name>eidasErrors.properties</resource-name>
+		<resource-name>eidasParameters.properties</resource-name>
+		<resource-name>EIDASNodemetadata.xml</resource-name>
+		<resource-name>filecertmgmt.xml</resource-name>
+		<resource-name>saml-eidasnode-config.xml</resource-name>
+		<resource-name>saml-engine-stork-attributes.xml</resource-name>
+		<resource-name>SSL.truststore</resource-name>
+		<resource-name>stork-schema-*-1.0.xsd</resource-name>
+		<resource-name>xmldsig-core-schema.xsd</resource-name>
+
+		<!-- esapi-2.1.0.2.jar -->
+		<resource-name>ESAPI-properties.xsd</resource-name>
+
+		<!-- icu4j-57.1.jar -->
+		<resource-name>com/ibm/icu/ICUConfig.properties</resource-name>
+
+		<!-- opensaml-2.6.7.jar -->
+		<resource-name>schema/cs-sstc-*.xsd</resource-name>
+		<resource-name>schema/ietf-kitten-sasl-saml-ec.xsd</resource-name>
+		<resource-name>schema/saml-*.xsd</resource-name>
+		<resource-name>schema/sstc-*.xsd</resource-name>
+		<resource-name>templates/add-html-*-content.vm</resource-name>
+		<resource-name>templates/saml*-post-*.vm</resource-name>
+		<resource-name>saml-ec-gss-config.xml</resource-name>
+		<resource-name>saml1-*-config.xml</resource-name>
+		<resource-name>saml2-*-config.xml</resource-name>
+		<resource-name>xacml*-saml2-profile-config.xml</resource-name>
+		<resource-name>xacml20-*-config.xml</resource-name>
+
+		<!-- openws-1.5.7.jar -->
+		<resource-name>schema/oasis-200401-wss-wssecurity-*.xsd</resource-name>
+		<resource-name>schema/oasis-200401-wss-wssecurity-*.xsd</resource-name>
+		<resource-name>schema/oasis-wss-wssecurity-secext-*.xsd</resource-name>
+		<resource-name>schema/soap-envelope.xsd</resource-name>
+		<resource-name>schema/ws-addr.xsd</resource-name>
+		<resource-name>schema/ws-policy.xsd</resource-name>
+		<resource-name>schema/ws-trust-1.3.xsd</resource-name>
+		<resource-name>soap11-config.xml</resource-name>
+		<resource-name>wsaddressing-config.xml</resource-name>
+		<resource-name>wsfed11-protocol-config.xml</resource-name>
+		<resource-name>wspolicy-config.xml</resource-name>
+		<resource-name>wssecurity-config.xml</resource-name>
+		<resource-name>wstrust-config.xml</resource-name>
+
+		<!-- wss4j-1.6.19.jar -->
+		<resource-name>saml2-xacml2-profile.xml</resource-name>
+
+		<!-- xmlsec-2.0.11.jar -->
+		<resource-name>bindings/schemas/datatypes.dtd</resource-name>
+		<resource-name>bindings/schemas/exc-c14n.xsd</resource-name>
+		<resource-name>bindings/schemas/xenc-schema-11.xsd</resource-name>
+		<resource-name>bindings/schemas/xenc-schema.xsd</resource-name>
+		<resource-name>bindings/schemas/xml.xsd</resource-name>
+		<resource-name>bindings/schemas/xmldsig-core-schema.xsd</resource-name>
+		<resource-name>bindings/schemas/xmldsig11-schema.xsd</resource-name>
+		<resource-name>bindings/schemas/XMLSchema.dtd</resource-name>
+		<resource-name>bindings/bindings.cat</resource-name>
+		<resource-name>bindings/c14n.xjb</resource-name>
+		<resource-name>bindings/dsig.xjb</resource-name>
+		<resource-name>bindings/dsig11.xjb</resource-name>
+		<resource-name>bindings/security-config.xjb</resource-name>
+		<resource-name>bindings/xenc.xjb</resource-name>
+		<resource-name>bindings/xenc11.xjb</resource-name>
+		<resource-name>META-INF/sun-jaxb.episode</resource-name>
+		<resource-name>schemas/security-config.xsd</resource-name>
+		<resource-name>security-config.xml</resource-name>
+
+		<!-- xmltooling-1.4.7.jar -->
+		<resource-name>schema/datatypes.dtd</resource-name>
+		<resource-name>schema/xenc-schema.xsd</resource-name>
+		<resource-name>schema/xenc11-schema.xsd</resource-name>
+		<resource-name>schema/xml.xsd</resource-name>
+		<resource-name>schema/xmldsig11-schema.xsd</resource-name>
+		<resource-name>schema/xxmldsig-core-schema.xsd</resource-name>
+		<resource-name>schema/XMLSchema.dtd</resource-name>
+		<resource-name>schema/XMLSchema.xsd</resource-name>
+		<resource-name>schema/xmltooling-config.xsd</resource-name>
+		<resource-name>credential-criteria-registry.properties</resource-name>
+		<resource-name>default-config.xml</resource-name>
+		<resource-name>encryption-config.xml</resource-name>
+		<resource-name>encryption-validation-config.xml</resource-name>
+		<resource-name>schema-config.xml</resource-name>
+		<resource-name>signature-config.xml</resource-name>
+		<resource-name>signature-validation-config.xml</resource-name>
+	</prefer-application-resources>
+
+</weblogic-application>

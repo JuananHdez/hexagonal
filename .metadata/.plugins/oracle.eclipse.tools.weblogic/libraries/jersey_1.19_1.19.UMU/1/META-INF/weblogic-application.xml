@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogic-application
+	xmlns="http://xmlns.oracle.com/weblogic/weblogic-application"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/javaee_5.xsd http://xmlns.oracle.com/weblogic/weblogic-application http://xmlns.oracle.com/weblogic/weblogic-application/1.5/weblogic-application.xsd">
+
+	<!--weblogic-version:12.2.1 -->
+	<prefer-application-packages>
+		<!-- Jackson Libraries -->
+		<package-name>org.codehaus.jackson.*</package-name>
+		
+		<!-- Jersey Libraries -->
+		<package-name>com.sun.ws.rs.ext.*</package-name>
+		<package-name>com.sun.jersey.*</package-name>
+		<package-name>jersey.repackaged.*</package-name>
+		<package-name>com.sun.research.ws.wadl.*</package-name>
+		
+		<!-- Jettison Libraries -->
+		<package-name>org.codehaus.jettison.*</package-name>
+		
+		<!-- JSR 311 - JAX-RS Libraries -->
+		<package-name>javax.ws.rs.*</package-name>
+		
+		<!-- MIMEPull Libraries -->
+		<package-name>org.jvnet.mimepull.*</package-name>
+		
+		<!-- Evitar el Jersey del Servidor -->
+		<package-name>org.glassfish.jersey.*</package-name>
+		<package-name>com.fasterxml.jackson.*</package-name>
+		
+		 
+		<package-name>weblogic.jaxrs.api.client.*</package-name> 
+		<package-name>weblogic.jaxrs.internal.api.*</package-name> 
+		<package-name>weblogic.jaxrs.dispatch.*</package-name> 
+		<package-name>weblogic.jaxrs.monitoring.util.*</package-name> 
+	</prefer-application-packages>
+
+	<prefer-application-resources>
+		<!-- Jersey Libraries 
+        <resource-name>META-INF/services/com.sun.jersey.spi.HeaderDelegateProvider</resource-name>
+        <resource-name>META-INF/services/com.sun.jersey.spi.inject.InjectableProvider</resource-name>
+        <resource-name>META-INF/services/javax.ws.rs.ext.MessageBodyReader</resource-name>
+		<resource-name>META-INF/services/javax.ws.rs.ext.MessageBodyWriter</resource-name>
+		
+		<resource-name>META-INF/services/com.sun.jersey.spi.container.ResourceMethodCustomInvokerDispatchProvider</resource-name>
+		<resource-name>META-INF/services/com.sun.jersey.spi.container.ResourceMethodDispatchProvider</resource-name>
+		<resource-name>META-INF/services/com.sun.jersey.spi.inject.InjectableProvider</resource-name>
+		<resource-name>META-INF/services/javax.ws.rs.ext.MessageBodyReader</resource-name>
+		<resource-name>META-INF/services/javax.ws.rs.ext.MessageBodyWriter</resource-name>
+		
+		<resource-name>META-INF/services/com.sun.jersey.spi.container.ContainerProvider</resource-name>
+		<resource-name>META-INF/services/com.sun.jersey.spi.container.ContainerRequestFilter</resource-name>
+		<resource-name>META-INF/services/com.sun.jersey.spi.container.ResourceMethodCustomInvokerDispatchProvider</resource-name>
+		<resource-name>META-INF/services/com.sun.jersey.spi.container.ResourceMethodDispatchProvider</resource-name>
+		<resource-name>META-INF/services/com.sun.jersey.spi.container.WebApplicationProvider</resource-name>
+		<resource-name>META-INF/services/com.sun.jersey.spi.StringReaderProvider</resource-name>
+		<resource-name>META-INF/services/javax.ws.rs.ext.MessageBodyWriter</resource-name>
+		<resource-name>META-INF/services/javax.ws.rs.ext.RuntimeDelegate</resource-name>
+		-->
+		
+		<resource-name>META-INF/services/com.sun.jersey.spi.*</resource-name>
+		<resource-name>META-INF/services/javax.ws.rs.ext.*</resource-name>
+		<resource-name>META-INF/services/javax.enterprise.inject.spi.Extension</resource-name>
+		<resource-name>META-INF/services/javax.servlet.ServletContainerInitializer</resource-name>
+		
+		<!-- Evitar el Jersey del Servidor -->
+		<resource-name>META-INF/services/org.glassfish.jersey.*</resource-name>
+	</prefer-application-resources>
+
+</weblogic-application>

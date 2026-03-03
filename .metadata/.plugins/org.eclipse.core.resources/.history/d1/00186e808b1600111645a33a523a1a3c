@@ -1,0 +1,8 @@
+package es.um.atica.umufly.vuelos.application.usecase.obtenervuelos;
+
+import es.um.atica.fundewebjs.umubus.domain.cqrs.Query;
+import es.um.atica.umufly.vuelos.application.dto.VueloAmpliadoDTO;
+
+public class ObtenerVuelosQuery extends Query<VueloAmpliadoDTO> {
+
+}

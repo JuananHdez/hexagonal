@@ -1,0 +1,24 @@
+package es.um.atica.umufly.vuelos.application.usecase.obtenervuelos;
+
+import es.um.atica.fundewebjs.umubus.domain.cqrs.QueryHandler;
+import es.um.atica.umufly.vuelos.application.dto.VueloAmpliadoDTO;
+import es.um.atica.umufly.vuelos.application.mapper.ApplicationMapper;
+import es.um.atica.umufly.vuelos.application.port.VuelosReadRepository;
+import es.um.atica.umufly.vuelos.domain.model.Vuelo;
+
+public class ObtenerVuelosQueryHandler implements QueryHandler<VueloAmpliadoDTO, ObtenerVuelosQuery> {
+
+	private final VuelosReadRepository vueloReadRepository;
+
+	public ObtenerVuelosQueryHandler( VuelosReadRepository vueloReadRepository ) {
+		this.vueloReadRepository = vueloReadRepository;
+	}
+
+	@Override
+	public VueloAmpliadoDTO handle( ObtenerVuelosQuery query ) throws Exception {
+		Vuelo vuelo = vueloReadRepository.findVuelo( query.getIdReserva() );
+
+		return ApplicationMapper.vueloToDTO( vuelo, query.getIdReserva() );
+	}
+
+}

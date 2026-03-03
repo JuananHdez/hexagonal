@@ -1,0 +1,8 @@
+package es.um.atica.umufly.vuelos.application.usecase.cancelarreservas;
+
+import es.um.atica.fundewebjs.umubus.domain.cqrs.SyncCommandHandler;
+import es.um.atica.umufly.vuelos.domain.model.ReservaVuelo;
+
+public class CancelarReservasCommandHandler implements SyncCommandHandler<ReservaVuelo, CancelarReservasCommand> {
+
+}

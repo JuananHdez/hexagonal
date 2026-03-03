@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<weblogic-application
+	xmlns="http://xmlns.oracle.com/weblogic/weblogic-application"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/javaee_5.xsd http://xmlns.oracle.com/weblogic/weblogic-application http://xmlns.oracle.com/weblogic/weblogic-application/1.5/weblogic-application.xsd">
+
+	<!--weblogic-version:12.1.2 -->
+	<prefer-application-packages>
+		<package-name>com.bea.faces.*</package-name>
+		<package-name>javax.faces.*</package-name>
+		<package-name>com.sun.faces.*</package-name>
+	</prefer-application-packages>
+
+	<prefer-application-resources>
+		<resource-name>com.bea.faces.*</resource-name>
+		<resource-name>com.sun.faces.*</resource-name>
+		<resource-name>javax.faces.*</resource-name>
+		<resource-name>META-INF/services/javax.servlet.ServletContainerInitializer</resource-name>
+		<resource-name>META-INF/services/com.sun.faces.spi.injectionprovider</resource-name>
+		<resource-name>META-INF/services/com.sun.faces.spi.FacesConfigResourceProvider</resource-name>
+		<resource-name>META-INF/services/faces-config.xml</resource-name>
+		<resource-name>META-INF/resources/javax.faces/*</resource-name>
+		<resource-name>META-INF/error-include.xhtml</resource-name>
+		<resource-name>META-INF/facelet-dev-debug.xml</resource-name>
+		<resource-name>META-INF/facelet-dev-error.xml</resource-name>
+		<resource-name>META-INF/html_basic.tld</resource-name>
+		<resource-name>META-INF/jsf_core.tld</resource-name>
+		<resource-name>META-INF/mojarra_ext.taglib.xml</resource-name>
+		<resource-name>META-INF/mojarra_ext.tld</resource-name>
+		<resource-name>META-INF/mojarra-jsf-api-probe-provider.xml</resource-name>
+	</prefer-application-resources>
+
+</weblogic-application>

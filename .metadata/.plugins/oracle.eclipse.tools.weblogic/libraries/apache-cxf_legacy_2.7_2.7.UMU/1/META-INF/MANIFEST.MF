@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Build-timestamp: 12/03/2019-15:04
+Implementation-Title: Apache CXF 2.7.18 Weblogic 12.2 Shared Lib - EAR
+Implementation-Version: 2.7.UMU
+Implementation-Vendor-Id: org.um.atica.fundeweb.weblogic.weblogic-shar
+ ed-libs.apache-cxf_legacy
+Build-Jdk: 1.7.0_181
+Built-By: juanmiguel.bernal
+Specification-Title: Apache CXF 2.7.18 Weblogic 12.2 Shared Lib - EAR
+Created-By: Apache Maven 3.0.5
+Specification-Version: 2.7
+Extension-Name: apache-cxf_legacy
+Archiver-Version: Plexus Archiver
+
