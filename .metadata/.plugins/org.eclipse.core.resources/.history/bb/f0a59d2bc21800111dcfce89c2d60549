@@ -1,0 +1,10 @@
+package es.um.atica.vuelos.cucumber;
+
+@CucumberContextConfiguration
+@SpringBootTest(classes = UmuflyApiApplication.class, webEnvironment =
+SpringBootTest.WebEnvironment.RANDOM_PORT)
+@TestPropertySource(locations = "classpath:application-test.properties")
+@ActiveProfiles("test") 
+public class CucumberSpringConfig {
+
+}
