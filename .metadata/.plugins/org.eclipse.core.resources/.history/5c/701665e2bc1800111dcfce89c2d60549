@@ -1,0 +1,36 @@
+package es.um.atica;
+
+import java.util.UUID;
+
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.ClassOrderer;
+import org.junit.jupiter.api.TestClassOrder;
+
+import es.um.atica.umufly.vuelos.domain.model.Avion;
+import es.um.atica.umufly.vuelos.domain.model.CorreoElectronico;
+import es.um.atica.umufly.vuelos.domain.model.EstadoVuelo;
+import es.um.atica.umufly.vuelos.domain.model.Itinerario;
+import es.um.atica.umufly.vuelos.domain.model.Nacionalidad;
+import es.um.atica.umufly.vuelos.domain.model.NombreCompleto;
+import es.um.atica.umufly.vuelos.domain.model.Pasajero;
+import es.um.atica.umufly.vuelos.domain.model.TipoVuelo;
+import es.um.atica.umufly.vuelos.domain.model.Vuelo;
+
+@TestClassOrder( ClassOrderer.OrderAnnotation.class )
+public class UmuFlyUnitariosTest {
+	
+	Vuelvo vueloPendiente;
+
+	@BeforeEach
+	void setUp() {
+		titular = new DocumentoIdentidad( TipoDocumento.NIF, "12345678Z" );
+		pasajero = Pasajero.of( titular, new NombreCompleto( "Juan", "García", "López" ), new CorreoElectronico( "juan@ejemplo.com" ), new Nacionalidad( "Española" ) );
+		Itinerario itinerario = new Itinerario( SALIDA, LLEGADA, "MAD", "BCN" );
+		Avion avion = new Avion( 180 );
+		vueloPendiente = Vuelo.of( UUID.randomUUID(), itinerario, TipoVuelo.NACIONAL, EstadoVuelo.PENDIENTE, avion );
+		vueloCancelado = Vuelo.of( UUID.randomUUID(), itinerario, TipoVuelo.NACIONAL, EstadoVuelo.CANCELADO, avion );
+		vueloCompletado = Vuelo.of( UUID.randomUUID(), itinerario, TipoVuelo.NACIONAL, EstadoVuelo.COMPLETADO, avion );
+
+	}
+
+}
