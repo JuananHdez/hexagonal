@@ -1,0 +1,23 @@
+package es.um.atica;
+
+import org.assertj.core.internal.Classes;
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.tngtech.archunit.junit.AnalyzeClasses;
+import com.tngtech.archunit.junit.ArchTest;
+import com.tngtech.archunit.lang.ArchRule;
+
+import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.classes;
+import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.methods;
+import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.noClasses;
+
+@AnalyzeClasses( packages = "es.um.atica.umufly" )
+class UmuflyApiApplicationTests {
+	
+	
+	@ArchTest
+	static final ArchRule ninguna_interfaz_acaba_en_impl = classes;
+
+
+}

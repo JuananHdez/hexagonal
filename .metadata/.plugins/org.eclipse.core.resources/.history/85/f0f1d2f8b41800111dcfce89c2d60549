@@ -1,0 +1,7 @@
+package es.um.atica.umufly.parking.domain.model;
+
+public class Snippet {
+
+	Los RestController solo pueden estar en la capa de adaptadores.
+}
+

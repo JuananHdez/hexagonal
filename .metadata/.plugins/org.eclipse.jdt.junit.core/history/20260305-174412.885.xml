@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UmuflyApiApplicationTests" project="umufly-api" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="es.um.atica.UmuflyApiApplicationTests" time="1.849" displayname="UmuflyApiApplicationTests" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]">
+    <testcase name="ninguna_interfaz_acaba_en_impl" classname="ninguna_interfaz_acaba_en_impl" time="1.617" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]/[field:ninguna_interfaz_acaba_en_impl]"/>
+    <testcase name="codigo_respeta_arquitectura_hexagonal" classname="codigo_respeta_arquitectura_hexagonal" time="0.224" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]/[field:codigo_respeta_arquitectura_hexagonal]"/>
+    <testcase name="api_rest_debe_validar_datos_entrada" classname="api_rest_debe_validar_datos_entrada" time="0.006" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]/[field:api_rest_debe_validar_datos_entrada]"/>
+    <testcase name="toda_implementacion_acaba_en_impl" classname="toda_implementacion_acaba_en_impl" time="0.001" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]/[field:toda_implementacion_acaba_en_impl]"/>
+  </testsuite>
+</testrun>

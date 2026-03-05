@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UmuflyApiApplicationTests" project="umufly-api" tests="7" started="7" failures="2" errors="0" ignored="0">
+  <testsuite name="es.um.atica.UmuflyApiApplicationTests" time="1.931" displayname="UmuflyApiApplicationTests" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]">
+    <testcase name="ninguna_interfaz_acaba_en_impl" classname="ninguna_interfaz_acaba_en_impl" time="1.669" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]/[field:ninguna_interfaz_acaba_en_impl]"/>
+    <testcase name="codigo_respeta_arquitectura_hexagonal" classname="codigo_respeta_arquitectura_hexagonal" time="0.238" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]/[field:codigo_respeta_arquitectura_hexagonal]"/>
+    <testcase name="api_rest_debe_validar_datos_entrada" classname="api_rest_debe_validar_datos_entrada" time="0.007" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]/[field:api_rest_debe_validar_datos_entrada]"/>
+    <testcase name="toda_implementacion_acaba_en_impl" classname="toda_implementacion_acaba_en_impl" time="0.011" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]/[field:toda_implementacion_acaba_en_impl]">
+      <failure>java.lang.AssertionError: Architecture Violation [Priority: MEDIUM] - Rule 'classes that are interfaces and are not enums and implementa al menos una interfaz should have simple name ending with 'Impl'' was violated (6 times):&#13;
+Class &lt;es.um.atica.umufly.parking.adaptors.persistence.jpa.repository.JpaReservaParkingRepository&gt; does not have simple name ending with 'Impl' in (JpaReservaParkingRepository.java:0)&#13;
+Class &lt;es.um.atica.umufly.parking.adaptors.persistence.jpa.repository.JpaReservaParkingViewRepository&gt; does not have simple name ending with 'Impl' in (JpaReservaParkingViewRepository.java:0)&#13;
+Class &lt;es.um.atica.umufly.parking.adaptors.persistence.jpa.repository.JpaTipoEstacionamientoRepository&gt; does not have simple name ending with 'Impl' in (JpaTipoEstacionamientoRepository.java:0)&#13;
+Class &lt;es.um.atica.umufly.vuelos.adaptors.persistence.jpa.repository.JpaReservaVueloRepository&gt; does not have simple name ending with 'Impl' in (JpaReservaVueloRepository.java:0)&#13;
+Class &lt;es.um.atica.umufly.vuelos.adaptors.persistence.jpa.repository.JpaReservaVueloViewRepository&gt; does not have simple name ending with 'Impl' in (JpaReservaVueloViewRepository.java:0)&#13;
+Class &lt;es.um.atica.umufly.vuelos.adaptors.persistence.jpa.repository.JpaVueloRepository&gt; does not have simple name ending with 'Impl' in (JpaVueloRepository.java:0)&#13;
+	at com.tngtech.archunit.lang.ArchRule$Assertions.assertNoViolation(ArchRule.java:94)&#13;
+	at com.tngtech.archunit.lang.ArchRule$Assertions.check(ArchRule.java:86)&#13;
+	at com.tngtech.archunit.lang.ArchRule$Factory$SimpleArchRule.check(ArchRule.java:165)&#13;
+	at com.tngtech.archunit.lang.syntax.ObjectsShouldInternal.check(ObjectsShouldInternal.java:81)&#13;
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:168)&#13;
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:151)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="dto_acaba_en_dto" classname="dto_acaba_en_dto" time="0.001" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]/[field:dto_acaba_en_dto]"/>
+    <testcase name="RestController_solo_capa_adptadores" classname="RestController_solo_capa_adptadores" time="0.0" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]/[field:RestController_solo_capa_adptadores]"/>
+    <testcase name="ninguna_clase_mas_de_20_metodos_publicos" classname="ninguna_clase_mas_de_20_metodos_publicos" time="0.003" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]/[field:ninguna_clase_mas_de_20_metodos_publicos]">
+      <failure>java.lang.AssertionError: Architecture Violation [Priority: MEDIUM] - Rule 'classes should tener como máximo 20 métodos públicos, because Ninguna clase debe tener más de 20 métodos públicos.' was violated (3 times):&#13;
+es.um.atica.umufly.parking.adaptors.persistence.jpa.entity.ReservaParkingEntity tiene 24 métodos públicos&#13;
+es.um.atica.umufly.vuelos.adaptors.persistence.jpa.entity.ReservaVueloEntity tiene 23 métodos públicos&#13;
+es.um.atica.umufly.vuelos.adaptors.persistence.jpa.entity.ReservaVueloViewEntity tiene 21 métodos públicos&#13;
+	at com.tngtech.archunit.lang.ArchRule$Assertions.assertNoViolation(ArchRule.java:94)&#13;
+	at com.tngtech.archunit.lang.ArchRule$Assertions.check(ArchRule.java:86)&#13;
+	at com.tngtech.archunit.lang.ArchRule$Factory$SimpleArchRule.check(ArchRule.java:165)&#13;
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:168)&#13;
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:151)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>

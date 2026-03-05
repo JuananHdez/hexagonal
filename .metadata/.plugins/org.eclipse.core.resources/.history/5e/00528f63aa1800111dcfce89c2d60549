@@ -1,0 +1,15 @@
+package es.um.atica;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class UmuflyApiApplicationTests {
+	
+	static final ArchRule ninguna_interfaz_acaba_en_impl =
+
+	@Test
+	void contextLoads() {
+	}
+
+}

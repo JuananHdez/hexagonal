@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UmuflyApiApplicationTests" project="umufly-api" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="es.um.atica.UmuflyApiApplicationTests" time="1.902" displayname="UmuflyApiApplicationTests" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]">
+    <testcase name="ninguna_interfaz_acaba_en_impl" classname="ninguna_interfaz_acaba_en_impl" time="1.7" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]/[field:ninguna_interfaz_acaba_en_impl]"/>
+    <testcase name="codigo_respeta_arquitectura_hexagonal" classname="codigo_respeta_arquitectura_hexagonal" time="0.202" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]/[field:codigo_respeta_arquitectura_hexagonal]"/>
+  </testsuite>
+</testrun>

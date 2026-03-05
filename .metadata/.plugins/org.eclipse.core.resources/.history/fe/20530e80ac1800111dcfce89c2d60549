@@ -1,0 +1,29 @@
+package es.um.atica;
+
+import static com.tngtech.archunit.lang.syntax.ArchRuleDefinition.classes;
+import static com.tngtech.archunit.library.Architectures.layeredArchitecture;
+
+import com.tngtech.archunit.junit.AnalyzeClasses;
+import com.tngtech.archunit.junit.ArchTest;
+import com.tngtech.archunit.lang.ArchRule;
+
+@AnalyzeClasses( packages = "es.um.atica.umufly" )
+class UmuflyApiApplicationTests {
+
+	@ArchTest
+	static final ArchRule ninguna_interfaz_acaba_en_impl = classes().that().areInterfaces().should().haveSimpleNameNotEndingWith( "Impl" ).because( "Las interfaces no deben terminar en impl." );
+
+	@ArchTest
+	static final ArchRule codigo_respeta_arquitectura_hexagonal = layeredArchitecture()// Define una estructura por capas
+	.consideringAllDependencies() // Cojo todas las dependencias del proyecto
+	.layer("Domain").definedBy("..domain..") // Defino la capa de dominio por todas las clases dentro de ..domain..
+	.layer("Application").definedBy("..application..") // Defino la capa de aplicacion por todas las clases dentro de
+	..application..
+	.layer("Adapters").definedBy("..adaptors..")//Defino la capa de adaptadores por todas las clases dentro de ..adaptors..
+	.whereLayer("Domain").mayOnlyBeAccessedByLayers("Application", "Adapters") // Indico que "imports" de la
+	// capa de dominio pueden estar en Application y Adapters
+	.whereLayer("Application").mayOnlyBeAccessedByLayers("Adapters")// Indico que "imports" de la capa de
+	// adaptadores pueden estar en Application (pero no en dominio)
+	.whereLayer("Adapters").mayNotBeAccessedByAnyLayer(); // Ninguna capa debe tener import de adapters
+
+}

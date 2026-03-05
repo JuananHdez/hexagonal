@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="UmuflyApiApplicationTests" project="umufly-api" tests="6" started="6" failures="3" errors="0" ignored="0">
+  <testsuite name="es.um.atica.UmuflyApiApplicationTests" time="1.863" displayname="UmuflyApiApplicationTests" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]">
+    <testcase name="ninguna_interfaz_acaba_en_impl" classname="ninguna_interfaz_acaba_en_impl" time="1.61" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]/[field:ninguna_interfaz_acaba_en_impl]"/>
+    <testcase name="codigo_respeta_arquitectura_hexagonal" classname="codigo_respeta_arquitectura_hexagonal" time="0.242" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]/[field:codigo_respeta_arquitectura_hexagonal]">
+      <failure>java.lang.AssertionError: Architecture Violation [Priority: MEDIUM] - Rule 'Layered architecture considering all dependencies, consisting of&#13;
+layer 'Domain' ('..domain..')&#13;
+layer 'Application' ('..application..')&#13;
+layer 'Adapters' ('..adaptors..')&#13;
+where layer 'Domain' may only be accessed by layers ['Application', 'Adapters']&#13;
+where layer 'Application' may only be accessed by layers ['Adapters']&#13;
+where layer 'Adapters' may not be accessed by any layer' was violated (25 times):&#13;
+Constructor &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.&lt;init&gt;(es.um.atica.umufly.vuelos.application.usecase.crearreservas.CrearReservaCommandHandler, es.um.atica.umufly.vuelos.application.usecase.cancelarreservas.CancelarReservaCommandHandler, es.um.atica.umufly.vuelos.adaptors.api.rest.v2.ReservasModelAssemblerV2, es.um.atica.umufly.vuelos.adaptors.api.rest.AuthService)&gt; has parameter of type &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.AuthService&gt; in (ReservasCommandEndpointV2.java:0)&#13;
+Constructor &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.&lt;init&gt;(es.um.atica.umufly.vuelos.application.usecase.crearreservas.CrearReservaCommandHandler, es.um.atica.umufly.vuelos.application.usecase.cancelarreservas.CancelarReservaCommandHandler, es.um.atica.umufly.vuelos.adaptors.api.rest.v2.ReservasModelAssemblerV2, es.um.atica.umufly.vuelos.adaptors.api.rest.AuthService)&gt; has parameter of type &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v2.ReservasModelAssemblerV2&gt; in (ReservasCommandEndpointV2.java:0)&#13;
+Constructor &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.&lt;init&gt;(es.um.atica.umufly.vuelos.application.usecase.crearreservas.CrearReservaCommandHandler, es.um.atica.umufly.vuelos.application.usecase.cancelarreservas.CancelarReservaCommandHandler, es.um.atica.umufly.vuelos.adaptors.api.rest.v2.ReservasModelAssemblerV2, es.um.atica.umufly.vuelos.adaptors.api.rest.AuthService)&gt; has parameter of type &lt;es.um.atica.umufly.vuelos.application.usecase.cancelarreservas.CancelarReservaCommandHandler&gt; in (ReservasCommandEndpointV2.java:0)&#13;
+Constructor &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.&lt;init&gt;(es.um.atica.umufly.vuelos.application.usecase.crearreservas.CrearReservaCommandHandler, es.um.atica.umufly.vuelos.application.usecase.cancelarreservas.CancelarReservaCommandHandler, es.um.atica.umufly.vuelos.adaptors.api.rest.v2.ReservasModelAssemblerV2, es.um.atica.umufly.vuelos.adaptors.api.rest.AuthService)&gt; has parameter of type &lt;es.um.atica.umufly.vuelos.application.usecase.crearreservas.CrearReservaCommandHandler&gt; in (ReservasCommandEndpointV2.java:0)&#13;
+Field &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.authService&gt; has type &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.AuthService&gt; in (ReservasCommandEndpointV2.java:0)&#13;
+Field &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.cancelarReservaCommandHandler&gt; has type &lt;es.um.atica.umufly.vuelos.application.usecase.cancelarreservas.CancelarReservaCommandHandler&gt; in (ReservasCommandEndpointV2.java:0)&#13;
+Field &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.crearReservaCommandHandler&gt; has type &lt;es.um.atica.umufly.vuelos.application.usecase.crearreservas.CrearReservaCommandHandler&gt; in (ReservasCommandEndpointV2.java:0)&#13;
+Field &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.reservasModelAssembler&gt; has type &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v2.ReservasModelAssemblerV2&gt; in (ReservasCommandEndpointV2.java:0)&#13;
+Method &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.cancelarReserva(java.lang.String, java.util.UUID)&gt; calls method &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.AuthService.parseUserHeader(java.lang.String)&gt; in (ReservasCommandEndpointV2.java:48)&#13;
+Method &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.cancelarReserva(java.lang.String, java.util.UUID)&gt; calls method &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v2.ReservasModelAssemblerV2.toModel(es.um.atica.umufly.vuelos.domain.model.ReservaVuelo)&gt; in (ReservasCommandEndpointV2.java:48)&#13;
+Method &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.cancelarReserva(java.lang.String, java.util.UUID)&gt; calls method &lt;es.um.atica.umufly.vuelos.application.usecase.cancelarreservas.CancelarReservaCommand.of(es.um.atica.umufly.vuelos.domain.model.DocumentoIdentidad, java.util.UUID)&gt; in (ReservasCommandEndpointV2.java:48)&#13;
+Method &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.cancelarReserva(java.lang.String, java.util.UUID)&gt; calls method &lt;es.um.atica.umufly.vuelos.application.usecase.cancelarreservas.CancelarReservaCommandHandler.handle(es.um.atica.umufly.vuelos.application.usecase.cancelarreservas.CancelarReservaCommand)&gt; in (ReservasCommandEndpointV2.java:48)&#13;
+Method &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.cancelarReserva(java.lang.String, java.util.UUID)&gt; has return type &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.ReservaVueloDTO&gt; in (ReservasCommandEndpointV2.java:0)&#13;
+Method &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.creaReserva(java.lang.String, es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.ReservaVueloDTO)&gt; calls method &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.AuthService.parseUserHeader(java.lang.String)&gt; in (ReservasCommandEndpointV2.java:42)&#13;
+Method &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.creaReserva(java.lang.String, es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.ReservaVueloDTO)&gt; calls method &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v2.ReservasModelAssemblerV2.toModel(es.um.atica.umufly.vuelos.domain.model.ReservaVuelo)&gt; in (ReservasCommandEndpointV2.java:42)&#13;
+Method &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.creaReserva(java.lang.String, es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.ReservaVueloDTO)&gt; calls method &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.ClaseAsientoReserva.toString()&gt; in (ReservasCommandEndpointV2.java:43)&#13;
+Method &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.creaReserva(java.lang.String, es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.ReservaVueloDTO)&gt; calls method &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.ReservaVueloDTO.getClaseAsiento()&gt; in (ReservasCommandEndpointV2.java:43)&#13;
+Method &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.creaReserva(java.lang.String, es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.ReservaVueloDTO)&gt; calls method &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.ReservaVueloDTO.getPasajero()&gt; in (ReservasCommandEndpointV2.java:43)&#13;
+Method &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.creaReserva(java.lang.String, es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.ReservaVueloDTO)&gt; calls method &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.ReservaVueloDTO.getVuelo()&gt; in (ReservasCommandEndpointV2.java:42)&#13;
+Method &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.creaReserva(java.lang.String, es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.ReservaVueloDTO)&gt; calls method &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.VueloDTO.getId()&gt; in (ReservasCommandEndpointV2.java:42)&#13;
+Method &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.creaReserva(java.lang.String, es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.ReservaVueloDTO)&gt; calls method &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v2.mapper.ApiRestV2Mapper.pasajeroToModel(es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.PasajeroDTO)&gt; in (ReservasCommandEndpointV2.java:43)&#13;
+Method &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.creaReserva(java.lang.String, es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.ReservaVueloDTO)&gt; calls method &lt;es.um.atica.umufly.vuelos.application.usecase.crearreservas.CrearReservaCommand.of(es.um.atica.umufly.vuelos.domain.model.DocumentoIdentidad, java.util.UUID, es.um.atica.umufly.vuelos.domain.model.ClaseAsientoReserva, es.um.atica.umufly.vuelos.domain.model.Pasajero)&gt; in (ReservasCommandEndpointV2.java:42)&#13;
+Method &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.creaReserva(java.lang.String, es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.ReservaVueloDTO)&gt; calls method &lt;es.um.atica.umufly.vuelos.application.usecase.crearreservas.CrearReservaCommandHandler.handle(es.um.atica.umufly.vuelos.application.usecase.crearreservas.CrearReservaCommand)&gt; in (ReservasCommandEndpointV2.java:42)&#13;
+Method &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.creaReserva(java.lang.String, es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.ReservaVueloDTO)&gt; has parameter of type &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.ReservaVueloDTO&gt; in (ReservasCommandEndpointV2.java:0)&#13;
+Method &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2.creaReserva(java.lang.String, es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.ReservaVueloDTO)&gt; has return type &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v2.dto.ReservaVueloDTO&gt; in (ReservasCommandEndpointV2.java:0)&#13;
+	at com.tngtech.archunit.lang.ArchRule$Assertions.assertNoViolation(ArchRule.java:94)&#13;
+	at com.tngtech.archunit.lang.ArchRule$Assertions.check(ArchRule.java:86)&#13;
+	at com.tngtech.archunit.library.Architectures$LayeredArchitecture.check(Architectures.java:347)&#13;
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:168)&#13;
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:151)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="api_rest_debe_validar_datos_entrada" classname="api_rest_debe_validar_datos_entrada" time="0.006" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]/[field:api_rest_debe_validar_datos_entrada]"/>
+    <testcase name="toda_implementacion_acaba_en_impl" classname="toda_implementacion_acaba_en_impl" time="0.001" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]/[field:toda_implementacion_acaba_en_impl]">
+      <failure>java.lang.AssertionError: Architecture Violation [Priority: MEDIUM] - Rule 'classes that are interfaces and are not enums and implementa al menos una interfaz should have simple name ending with 'Impl'' was violated (6 times):&#13;
+Class &lt;es.um.atica.umufly.parking.adaptors.persistence.jpa.repository.JpaReservaParkingRepository&gt; does not have simple name ending with 'Impl' in (JpaReservaParkingRepository.java:0)&#13;
+Class &lt;es.um.atica.umufly.parking.adaptors.persistence.jpa.repository.JpaReservaParkingViewRepository&gt; does not have simple name ending with 'Impl' in (JpaReservaParkingViewRepository.java:0)&#13;
+Class &lt;es.um.atica.umufly.parking.adaptors.persistence.jpa.repository.JpaTipoEstacionamientoRepository&gt; does not have simple name ending with 'Impl' in (JpaTipoEstacionamientoRepository.java:0)&#13;
+Class &lt;es.um.atica.umufly.vuelos.adaptors.persistence.jpa.repository.JpaReservaVueloRepository&gt; does not have simple name ending with 'Impl' in (JpaReservaVueloRepository.java:0)&#13;
+Class &lt;es.um.atica.umufly.vuelos.adaptors.persistence.jpa.repository.JpaReservaVueloViewRepository&gt; does not have simple name ending with 'Impl' in (JpaReservaVueloViewRepository.java:0)&#13;
+Class &lt;es.um.atica.umufly.vuelos.adaptors.persistence.jpa.repository.JpaVueloRepository&gt; does not have simple name ending with 'Impl' in (JpaVueloRepository.java:0)&#13;
+	at com.tngtech.archunit.lang.ArchRule$Assertions.assertNoViolation(ArchRule.java:94)&#13;
+	at com.tngtech.archunit.lang.ArchRule$Assertions.check(ArchRule.java:86)&#13;
+	at com.tngtech.archunit.lang.ArchRule$Factory$SimpleArchRule.check(ArchRule.java:165)&#13;
+	at com.tngtech.archunit.lang.syntax.ObjectsShouldInternal.check(ObjectsShouldInternal.java:81)&#13;
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:168)&#13;
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:151)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</failure>
+    </testcase>
+    <testcase name="dto_acaba_en_dto" classname="dto_acaba_en_dto" time="0.001" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]/[field:dto_acaba_en_dto]"/>
+    <testcase name="RestController_solo_capa_adptadores" classname="RestController_solo_capa_adptadores" time="0.002" uniqueid="[engine:archunit]/[class:es.um.atica.UmuflyApiApplicationTests]/[field:RestController_solo_capa_adptadores]">
+      <failure>java.lang.AssertionError: Architecture Violation [Priority: MEDIUM] - Rule 'classes that are annotated with @RestController should reside in any package ['..adapters..'], because Los RestController solo pueden estar en la capa de adaptadores.' was violated (10 times):&#13;
+Class &lt;es.um.atica.umufly.parking.adaptors.api.rest.ParkingCommandEndpoint&gt; does not reside in any package ['..adapters..'] in (ParkingCommandEndpoint.java:0)&#13;
+Class &lt;es.um.atica.umufly.parking.adaptors.api.rest.ParkingQueryEndpoint&gt; does not reside in any package ['..adapters..'] in (ParkingQueryEndpoint.java:0)&#13;
+Class &lt;es.um.atica.umufly.parking.domain.model.ReservasCommandEndpointV2&gt; does not reside in any package ['..adapters..'] in (ReservasCommandEndpointV2.java:0)&#13;
+Class &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v1.PruebasEndpoint&gt; does not reside in any package ['..adapters..'] in (PruebasEndpoint.java:0)&#13;
+Class &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v1.VuelosEndpointV1&gt; does not reside in any package ['..adapters..'] in (VuelosEndpointV1.java:0)&#13;
+Class &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v1.VuelosQueryEndpointV1&gt; does not reside in any package ['..adapters..'] in (VuelosQueryEndpointV1.java:0)&#13;
+Class &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v2.ReservasEndpointV2&gt; does not reside in any package ['..adapters..'] in (ReservasEndpointV2.java:0)&#13;
+Class &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v2.ReservasQueryEndpointV2&gt; does not reside in any package ['..adapters..'] in (ReservasQueryEndpointV2.java:0)&#13;
+Class &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v2.VuelosEndpointV2&gt; does not reside in any package ['..adapters..'] in (VuelosEndpointV2.java:0)&#13;
+Class &lt;es.um.atica.umufly.vuelos.adaptors.api.rest.v2.VuelosQueryEndpointV2&gt; does not reside in any package ['..adapters..'] in (VuelosQueryEndpointV2.java:0)&#13;
+	at com.tngtech.archunit.lang.ArchRule$Assertions.assertNoViolation(ArchRule.java:94)&#13;
+	at com.tngtech.archunit.lang.ArchRule$Assertions.check(ArchRule.java:86)&#13;
+	at com.tngtech.archunit.lang.ArchRule$Factory$SimpleArchRule.check(ArchRule.java:165)&#13;
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:168)&#13;
+	at com.tngtech.archunit.junit.internal.ArchUnitTestDescriptor$ArchUnitRuleDescriptor.execute(ArchUnitTestDescriptor.java:151)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)&#13;
+&#13;
+</failure>
+    </testcase>
+  </testsuite>
+</testrun>
