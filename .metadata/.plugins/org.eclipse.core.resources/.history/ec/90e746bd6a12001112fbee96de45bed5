@@ -1,6 +1,0 @@
-package es.um.atica.umufly.vuelos.application.usecase.listarVuelos;
-
-
-public class ListarVuelosQuery {
-
-}

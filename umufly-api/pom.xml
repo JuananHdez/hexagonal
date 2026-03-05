@@ -48,6 +48,7 @@
 	</repositories>
 	
 	<dependencies>
+
 		<!-- Inicio: Servicios web -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -62,8 +63,8 @@
 		</dependency>
 		<dependency>
 			<groupId>com.oracle.database.jdbc</groupId>
-			<artifactId>ojdbc11</artifactId>
-			<scope>runtime</scope>
+			<artifactId>ojdbc8</artifactId>
+<!--			<scope>runtime</scope>-->
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -87,10 +88,10 @@
 		</dependency>
 		<!-- Fin: Devtools (restart / hot reload en desarrollo) -->
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-restclient</artifactId>
-		</dependency>
+<!--		<dependency>-->
+<!--			<groupId>org.springframework.boot</groupId>-->
+<!--			<artifactId>spring-boot-starter-restclient</artifactId>-->
+<!--		</dependency>-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -102,7 +103,7 @@
 			<groupId>es.um.atica.fundewebjs</groupId>
 			<artifactId>fundewebjs-umubus</artifactId>
 			<version>1.0.15-SNAPSHOT</version>
-		</dependency>
+		</dependency>		
 	</dependencies>
 	<build>
 		<plugins>

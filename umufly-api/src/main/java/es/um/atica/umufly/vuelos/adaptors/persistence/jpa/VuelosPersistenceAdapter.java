@@ -8,11 +8,11 @@ import org.springframework.stereotype.Component;
 
 import es.um.atica.umufly.vuelos.adaptors.persistence.jpa.mapper.JpaPersistenceMapper;
 import es.um.atica.umufly.vuelos.adaptors.persistence.jpa.repository.JpaVueloRepository;
-import es.um.atica.umufly.vuelos.application.port.VuelosReadRepository;
+import es.um.atica.umufly.vuelos.application.port.VuelosRepository;
 import es.um.atica.umufly.vuelos.domain.model.Vuelo;
 
 @Component
-public class VuelosPersistenceAdapter implements VuelosReadRepository {
+public class VuelosPersistenceAdapter implements VuelosRepository {
 
 	private final JpaVueloRepository jpaVueloRepository;
 

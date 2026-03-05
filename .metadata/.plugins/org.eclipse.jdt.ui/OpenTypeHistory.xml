@@ -1,4 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-    <typeInfo handle="=umufly-api/C:\/FundeWeb\/maven_repository\/repository\/es\/um\/atica\/fundewebjs\/fundewebjs-umubus\/1.0.15-SNAPSHOT\/fundewebjs-umubus-1.0.15-SNAPSHOT.jar=/maven.pomderived=/true=/=/javadoc_location=/jar:file:\/C:\/FundeWeb\/maven_repository\/repository\/es\/um\/atica\/fundewebjs\/fundewebjs-umubus\/1.0.15-SNAPSHOT\/fundewebjs-umubus-1.0.15-SNAPSHOT-javadoc.jar\!\/=/=/maven.groupId=/es.um.atica.fundewebjs=/=/maven.artifactId=/fundewebjs-umubus=/=/maven.version=/1.0.15-SNAPSHOT=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;es.um.atica.fundewebjs.umubus.domain.cqrs(SyncCommandBus.class[SyncCommandBus" modifiers="1537" timestamp="1769536743271"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>

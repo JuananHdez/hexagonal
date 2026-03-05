@@ -1,6 +1,0 @@
-package es.um.atica.umufly.vuelos.application.usecase.obtenerreservas;
-
-
-public class ObtenerReservasQueryHandler {
-
-}

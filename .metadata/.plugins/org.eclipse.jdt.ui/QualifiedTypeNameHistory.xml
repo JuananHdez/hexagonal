@@ -56,4 +56,5 @@
     <fullyQualifiedTypeName name="es.um.atica.umufly.vuelos.application.port.ReservasVueloReadRepository"/>
     <fullyQualifiedTypeName name="java.time.LocalDateTime"/>
     <fullyQualifiedTypeName name="es.um.atica.umufly.parking.domain.model.EstadoReserva"/>
+    <fullyQualifiedTypeName name="es.um.atica.fundewebjs.umubus.domain.events.EventBus"/>
 </qualifiedTypeNameHistroy>
