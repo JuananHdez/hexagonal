@@ -22224,3 +22224,525 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.to
 2026-03-05 19:52:50,564 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2026-03-05 19:52:50,564 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2026-03-05 19:52:50,608 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2026-03-10 16:07:46,773 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-03-10 16:07:53,947 [Worker-10: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\umufly-api\pom.xml.
+2026-03-10 16:07:59,313 [Worker-14: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\umufly-api\pom.xml.
+2026-03-10 16:08:08,694 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-10 16:08:08,720 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-10 16:08:08,728 [Worker-14: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2026-03-10 16:08:09,353 [Worker-9: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\umufly-api\pom.xml.
+2026-03-10 16:10:30,411 [Worker-20: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\umufly-api\pom.xml.
+2026-03-10 16:10:31,001 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/boot/spring-boot-starter-security/4.0.2/spring-boot-starter-security-4.0.2.pom
+2026-03-10 16:10:31,071 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/boot/spring-boot-starter-security/4.0.2/spring-boot-starter-security-4.0.2.pom
+2026-03-10 16:10:31,342 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/4.0.2/spring-boot-starter-security-4.0.2.pom
+2026-03-10 16:10:31,404 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/boot/spring-boot-security/4.0.2/spring-boot-security-4.0.2.pom
+2026-03-10 16:10:31,421 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/boot/spring-boot-security/4.0.2/spring-boot-security-4.0.2.pom
+2026-03-10 16:10:31,539 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-security/4.0.2/spring-boot-security-4.0.2.pom
+2026-03-10 16:10:31,590 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/security/spring-security-config/7.0.2/spring-security-config-7.0.2.pom
+2026-03-10 16:10:31,608 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/security/spring-security-config/7.0.2/spring-security-config-7.0.2.pom
+2026-03-10 16:10:31,728 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/7.0.2/spring-security-config-7.0.2.pom
+2026-03-10 16:10:31,781 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/security/spring-security-core/7.0.2/spring-security-core-7.0.2.pom
+2026-03-10 16:10:31,797 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/security/spring-security-core/7.0.2/spring-security-core-7.0.2.pom
+2026-03-10 16:10:31,924 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/7.0.2/spring-security-core-7.0.2.pom
+2026-03-10 16:10:31,968 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/security/spring-security-crypto/7.0.2/spring-security-crypto-7.0.2.pom
+2026-03-10 16:10:31,988 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/security/spring-security-crypto/7.0.2/spring-security-crypto-7.0.2.pom
+2026-03-10 16:10:32,114 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/7.0.2/spring-security-crypto-7.0.2.pom
+2026-03-10 16:10:32,169 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/security/spring-security-web/7.0.2/spring-security-web-7.0.2.pom
+2026-03-10 16:10:32,185 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/security/spring-security-web/7.0.2/spring-security-web-7.0.2.pom
+2026-03-10 16:10:32,303 [Worker-20: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/7.0.2/spring-security-web-7.0.2.pom
+2026-03-10 16:10:32,393 [AetherRepositoryConnector-archiva.um.es-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/boot/spring-boot-starter-security/4.0.2/spring-boot-starter-security-4.0.2.jar
+2026-03-10 16:10:32,436 [AetherRepositoryConnector-archiva.um.es-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/security/spring-security-web/7.0.2/spring-security-web-7.0.2.jar
+2026-03-10 16:10:32,440 [AetherRepositoryConnector-archiva.um.es-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/security/spring-security-config/7.0.2/spring-security-config-7.0.2.jar
+2026-03-10 16:10:32,441 [AetherRepositoryConnector-archiva.um.es-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/security/spring-security-crypto/7.0.2/spring-security-crypto-7.0.2.jar
+2026-03-10 16:10:32,447 [AetherRepositoryConnector-archiva.um.es-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/security/spring-security-core/7.0.2/spring-security-core-7.0.2.jar
+2026-03-10 16:10:32,452 [AetherRepositoryConnector-archiva.um.es-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/boot/spring-boot-security/4.0.2/spring-boot-security-4.0.2.jar
+2026-03-10 16:10:32,517 [AetherRepositoryConnector-archiva.um.es-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/boot/spring-boot-starter-security/4.0.2/spring-boot-starter-security-4.0.2.jar
+2026-03-10 16:10:32,523 [AetherRepositoryConnector-archiva.um.es-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/security/spring-security-web/7.0.2/spring-security-web-7.0.2.jar
+2026-03-10 16:10:32,562 [AetherRepositoryConnector-archiva.um.es-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/security/spring-security-core/7.0.2/spring-security-core-7.0.2.jar
+2026-03-10 16:10:32,567 [AetherRepositoryConnector-archiva.um.es-1-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/security/spring-security-crypto/7.0.2/spring-security-crypto-7.0.2.jar
+2026-03-10 16:10:32,567 [AetherRepositoryConnector-archiva.um.es-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/security/spring-security-config/7.0.2/spring-security-config-7.0.2.jar
+2026-03-10 16:10:32,568 [AetherRepositoryConnector-archiva.um.es-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/boot/spring-boot-security/4.0.2/spring-boot-security-4.0.2.jar
+2026-03-10 16:10:32,658 [AetherRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/4.0.2/spring-boot-starter-security-4.0.2.jar
+2026-03-10 16:10:32,694 [AetherRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/7.0.2/spring-security-core-7.0.2.jar
+2026-03-10 16:10:32,718 [AetherRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-security/4.0.2/spring-boot-security-4.0.2.jar
+2026-03-10 16:10:32,719 [AetherRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/7.0.2/spring-security-crypto-7.0.2.jar
+2026-03-10 16:10:32,719 [AetherRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/7.0.2/spring-security-config-7.0.2.jar
+2026-03-10 16:10:32,794 [AetherRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/4.0.2/spring-boot-starter-security-4.0.2.jar
+2026-03-10 16:10:32,843 [AetherRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/7.0.2/spring-security-web-7.0.2.jar
+2026-03-10 16:10:32,853 [AetherRepositoryConnector-repo.maven.apache.org-2-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/7.0.2/spring-security-crypto-7.0.2.jar
+2026-03-10 16:10:32,854 [AetherRepositoryConnector-repo.maven.apache.org-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-security/4.0.2/spring-boot-security-4.0.2.jar
+2026-03-10 16:10:32,875 [AetherRepositoryConnector-repo.maven.apache.org-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/7.0.2/spring-security-core-7.0.2.jar
+2026-03-10 16:10:32,920 [AetherRepositoryConnector-repo.maven.apache.org-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/7.0.2/spring-security-config-7.0.2.jar
+2026-03-10 16:10:32,955 [AetherRepositoryConnector-repo.maven.apache.org-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/7.0.2/spring-security-web-7.0.2.jar
+2026-03-10 16:10:33,658 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-10 16:10:33,659 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-10 16:10:33,663 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-10 16:10:34,650 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/boot/spring-boot-starter-security/4.0.2/spring-boot-starter-security-4.0.2-sources.jar
+2026-03-10 16:10:34,729 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/boot/spring-boot-starter-security/4.0.2/spring-boot-starter-security-4.0.2-sources.jar
+2026-03-10 16:10:34,893 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/4.0.2/spring-boot-starter-security-4.0.2-sources.jar
+2026-03-10 16:10:34,980 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/4.0.2/spring-boot-starter-security-4.0.2-sources.jar
+2026-03-10 16:10:34,993 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-security:4.0.2
+2026-03-10 16:10:35,041 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/boot/spring-boot-starter-security/4.0.2/spring-boot-starter-security-4.0.2-javadoc.jar
+2026-03-10 16:10:35,058 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/boot/spring-boot-starter-security/4.0.2/spring-boot-starter-security-4.0.2-javadoc.jar
+2026-03-10 16:10:35,107 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/4.0.2/spring-boot-starter-security-4.0.2-javadoc.jar
+2026-03-10 16:10:35,152 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/4.0.2/spring-boot-starter-security-4.0.2-javadoc.jar
+2026-03-10 16:10:35,175 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for org.springframework.boot:spring-boot-starter-security:4.0.2
+2026-03-10 16:10:35,279 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/boot/spring-boot-security/4.0.2/spring-boot-security-4.0.2-sources.jar
+2026-03-10 16:10:35,346 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/boot/spring-boot-security/4.0.2/spring-boot-security-4.0.2-sources.jar
+2026-03-10 16:10:35,494 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-security/4.0.2/spring-boot-security-4.0.2-sources.jar
+2026-03-10 16:10:35,572 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-security/4.0.2/spring-boot-security-4.0.2-sources.jar
+2026-03-10 16:10:35,587 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-security:4.0.2
+2026-03-10 16:10:35,644 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/boot/spring-boot-security/4.0.2/spring-boot-security-4.0.2-javadoc.jar
+2026-03-10 16:10:35,666 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/boot/spring-boot-security/4.0.2/spring-boot-security-4.0.2-javadoc.jar
+2026-03-10 16:10:35,725 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-security/4.0.2/spring-boot-security-4.0.2-javadoc.jar
+2026-03-10 16:10:35,852 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-security/4.0.2/spring-boot-security-4.0.2-javadoc.jar
+2026-03-10 16:10:35,875 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for org.springframework.boot:spring-boot-security:4.0.2
+2026-03-10 16:10:35,975 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/security/spring-security-config/7.0.2/spring-security-config-7.0.2-sources.jar
+2026-03-10 16:10:36,044 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/security/spring-security-config/7.0.2/spring-security-config-7.0.2-sources.jar
+2026-03-10 16:10:36,168 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/7.0.2/spring-security-config-7.0.2-sources.jar
+2026-03-10 16:10:36,366 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/7.0.2/spring-security-config-7.0.2-sources.jar
+2026-03-10 16:10:36,377 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-config:7.0.2
+2026-03-10 16:10:36,433 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/security/spring-security-config/7.0.2/spring-security-config-7.0.2-javadoc.jar
+2026-03-10 16:10:36,451 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/security/spring-security-config/7.0.2/spring-security-config-7.0.2-javadoc.jar
+2026-03-10 16:10:36,500 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/7.0.2/spring-security-config-7.0.2-javadoc.jar
+2026-03-10 16:10:36,604 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/7.0.2/spring-security-config-7.0.2-javadoc.jar
+2026-03-10 16:10:36,625 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for org.springframework.security:spring-security-config:7.0.2
+2026-03-10 16:10:36,823 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/security/spring-security-core/7.0.2/spring-security-core-7.0.2-sources.jar
+2026-03-10 16:10:36,899 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/security/spring-security-core/7.0.2/spring-security-core-7.0.2-sources.jar
+2026-03-10 16:10:37,036 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/7.0.2/spring-security-core-7.0.2-sources.jar
+2026-03-10 16:10:37,196 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/7.0.2/spring-security-core-7.0.2-sources.jar
+2026-03-10 16:10:37,207 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-core:7.0.2
+2026-03-10 16:10:37,257 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/security/spring-security-core/7.0.2/spring-security-core-7.0.2-javadoc.jar
+2026-03-10 16:10:37,274 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/security/spring-security-core/7.0.2/spring-security-core-7.0.2-javadoc.jar
+2026-03-10 16:10:37,325 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/7.0.2/spring-security-core-7.0.2-javadoc.jar
+2026-03-10 16:10:37,443 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/7.0.2/spring-security-core-7.0.2-javadoc.jar
+2026-03-10 16:10:37,463 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for org.springframework.security:spring-security-core:7.0.2
+2026-03-10 16:10:37,566 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/security/spring-security-crypto/7.0.2/spring-security-crypto-7.0.2-sources.jar
+2026-03-10 16:10:37,637 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/security/spring-security-crypto/7.0.2/spring-security-crypto-7.0.2-sources.jar
+2026-03-10 16:10:37,806 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/7.0.2/spring-security-crypto-7.0.2-sources.jar
+2026-03-10 16:10:37,919 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/7.0.2/spring-security-crypto-7.0.2-sources.jar
+2026-03-10 16:10:37,930 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-crypto:7.0.2
+2026-03-10 16:10:37,976 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/security/spring-security-crypto/7.0.2/spring-security-crypto-7.0.2-javadoc.jar
+2026-03-10 16:10:37,993 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/security/spring-security-crypto/7.0.2/spring-security-crypto-7.0.2-javadoc.jar
+2026-03-10 16:10:38,055 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/7.0.2/spring-security-crypto-7.0.2-javadoc.jar
+2026-03-10 16:10:38,176 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-crypto/7.0.2/spring-security-crypto-7.0.2-javadoc.jar
+2026-03-10 16:10:38,199 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for org.springframework.security:spring-security-crypto:7.0.2
+2026-03-10 16:10:38,310 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/security/spring-security-web/7.0.2/spring-security-web-7.0.2-sources.jar
+2026-03-10 16:10:38,381 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/security/spring-security-web/7.0.2/spring-security-web-7.0.2-sources.jar
+2026-03-10 16:10:38,516 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/7.0.2/spring-security-web-7.0.2-sources.jar
+2026-03-10 16:10:38,708 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/7.0.2/spring-security-web-7.0.2-sources.jar
+2026-03-10 16:10:38,724 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-web:7.0.2
+2026-03-10 16:10:38,774 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/org/springframework/security/spring-security-web/7.0.2/spring-security-web-7.0.2-javadoc.jar
+2026-03-10 16:10:38,793 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/org/springframework/security/spring-security-web/7.0.2/spring-security-web-7.0.2-javadoc.jar
+2026-03-10 16:10:38,843 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/7.0.2/spring-security-web-7.0.2-javadoc.jar
+2026-03-10 16:10:38,972 [Worker-23: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/7.0.2/spring-security-web-7.0.2-javadoc.jar
+2026-03-10 16:10:38,993 [Worker-23: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for org.springframework.security:spring-security-web:7.0.2
+2026-03-10 16:10:39,571 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-03-10 16:10:39,937 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\umufly-api\pom.xml.
+2026-03-10 16:10:40,149 [DefaultMetadataResolver-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-umubus/1.0.15-SNAPSHOT/maven-metadata.xml
+2026-03-10 16:10:40,180 [DefaultMetadataResolver-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-umubus/1.0.15-SNAPSHOT/maven-metadata.xml
+2026-03-10 16:10:40,186 [DefaultMetadataResolver-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/es/um/atica/fundewebjs/fundewebjs-umubus/1.0.15-SNAPSHOT/maven-metadata.xml
+2026-03-10 16:10:40,254 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/es/um/atica/fundewebjs/fundewebjs-umubus/1.0.15-SNAPSHOT/fundewebjs-umubus-1.0.15-20260306.085349-4.pom
+2026-03-10 16:10:40,273 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-umubus/1.0.15-SNAPSHOT/fundewebjs-umubus-1.0.15-20260306.085349-4.pom
+2026-03-10 16:10:40,295 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-umubus/1.0.15-SNAPSHOT/fundewebjs-umubus-1.0.15-20260306.085349-4.pom
+2026-03-10 16:10:40,309 [DefaultMetadataResolver-4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs-api-dependencies/1.0.15-SNAPSHOT/maven-metadata.xml
+2026-03-10 16:10:40,338 [DefaultMetadataResolver-4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs-api-dependencies/1.0.15-SNAPSHOT/maven-metadata.xml
+2026-03-10 16:10:40,341 [DefaultMetadataResolver-4-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/es/um/atica/fundewebjs-api-dependencies/1.0.15-SNAPSHOT/maven-metadata.xml
+2026-03-10 16:10:40,360 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs-api-dependencies/1.0.15-SNAPSHOT/fundewebjs-api-dependencies-1.0.15-20260306.085349-4.pom
+2026-03-10 16:10:40,393 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs-api-dependencies/1.0.15-SNAPSHOT/fundewebjs-api-dependencies-1.0.15-20260306.085349-4.pom
+2026-03-10 16:10:40,421 [DefaultMetadataResolver-5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-log4j2/1.0.15-SNAPSHOT/maven-metadata.xml
+2026-03-10 16:10:40,457 [DefaultMetadataResolver-5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-log4j2/1.0.15-SNAPSHOT/maven-metadata.xml
+2026-03-10 16:10:40,457 [DefaultMetadataResolver-5-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/es/um/atica/fundewebjs/fundewebjs-log4j2/1.0.15-SNAPSHOT/maven-metadata.xml
+2026-03-10 16:10:40,531 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/es/um/atica/fundewebjs/fundewebjs-log4j2/1.0.15-SNAPSHOT/fundewebjs-log4j2-1.0.15-20260306.085349-4.pom
+2026-03-10 16:10:40,550 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-log4j2/1.0.15-SNAPSHOT/fundewebjs-log4j2-1.0.15-20260306.085349-4.pom
+2026-03-10 16:10:40,582 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-log4j2/1.0.15-SNAPSHOT/fundewebjs-log4j2-1.0.15-20260306.085349-4.pom
+2026-03-10 16:10:40,616 [DefaultMetadataResolver-6-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/cucumber/messages/maven-metadata.xml
+2026-03-10 16:10:40,664 [DefaultMetadataResolver-6-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/cucumber/messages/maven-metadata.xml
+2026-03-10 16:10:40,823 [DefaultMetadataResolver-6-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+2026-03-10 16:10:40,951 [DefaultMetadataResolver-7-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/cucumber/query/maven-metadata.xml
+2026-03-10 16:10:40,998 [DefaultMetadataResolver-7-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/cucumber/query/maven-metadata.xml
+2026-03-10 16:10:41,030 [DefaultMetadataResolver-7-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/query/maven-metadata.xml
+2026-03-10 16:10:41,271 [AetherRepositoryConnector-archiva.um.es-8-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-umubus/1.0.15-SNAPSHOT/fundewebjs-umubus-1.0.15-20260306.085349-4.jar
+2026-03-10 16:10:41,321 [AetherRepositoryConnector-archiva.um.es-8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-log4j2/1.0.15-SNAPSHOT/fundewebjs-log4j2-1.0.15-20260306.085349-4.jar
+2026-03-10 16:10:41,388 [AetherRepositoryConnector-archiva.um.es-8-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-log4j2/1.0.15-SNAPSHOT/fundewebjs-log4j2-1.0.15-20260306.085349-4.jar
+2026-03-10 16:10:41,519 [AetherRepositoryConnector-archiva.um.es-8-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-umubus/1.0.15-SNAPSHOT/fundewebjs-umubus-1.0.15-20260306.085349-4.jar
+2026-03-10 16:10:43,485 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /umufly-api/src/main/java
+2026-03-10 16:10:43,485 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /umufly-api/src/main/resources
+2026-03-10 16:10:43,485 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /umufly-api/src/main/resources
+2026-03-10 16:10:43,488 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /umufly-api/src/test/java
+2026-03-10 16:10:43,488 [Worker-25: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /umufly-api/src/test/resources
+2026-03-10 16:10:43,619 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-umubus/1.0.15-SNAPSHOT/fundewebjs-umubus-1.0.15-20260306.085349-4-sources.jar
+2026-03-10 16:10:43,881 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-umubus/1.0.15-SNAPSHOT/fundewebjs-umubus-1.0.15-20260306.085349-4-sources.jar
+2026-03-10 16:10:44,150 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for es.um.atica.fundewebjs:fundewebjs-umubus:1.0.15-SNAPSHOT
+2026-03-10 16:10:44,160 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-umubus/1.0.15-SNAPSHOT/fundewebjs-umubus-1.0.15-20260306.085349-4-javadoc.jar
+2026-03-10 16:10:44,358 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-umubus/1.0.15-SNAPSHOT/fundewebjs-umubus-1.0.15-20260306.085349-4-javadoc.jar
+2026-03-10 16:10:44,384 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for es.um.atica.fundewebjs:fundewebjs-umubus:1.0.15-SNAPSHOT
+2026-03-10 16:10:44,449 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-log4j2/1.0.15-SNAPSHOT/fundewebjs-log4j2-1.0.15-20260306.085349-4-sources.jar
+2026-03-10 16:10:44,516 [Worker-20: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-log4j2/1.0.15-SNAPSHOT/fundewebjs-log4j2-1.0.15-20260306.085349-4-sources.jar
+2026-03-10 16:10:44,532 [Worker-20: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for es.um.atica.fundewebjs:fundewebjs-log4j2:1.0.15-SNAPSHOT
+2026-03-10 16:10:44,566 [Worker-25: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 3,00 sec, update config takes 1,00 sec 
+2026-03-10 16:19:40,920 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-10.0.12; built: 2022-09-14T01:54:40.076Z; git: 408d0139887e27a57b54ed52e2d92a36731a7e88; jvm 17.0.7+8-LTS-224
+2026-03-10 16:19:40,938 [Start Help Server] INFO  o.e.j.s.s.DefaultSessionIdManager - Session workerName=node0
+2026-03-10 16:19:40,969 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@457a3742{/help,null,AVAILABLE}
+2026-03-10 16:19:40,983 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@21b415e6{HTTP/1.1, (http/1.1)}{127.0.0.1:62819}
+2026-03-10 16:19:40,985 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started Server@6c300eca{STARTING}[10.0.12,sto=0] @796583ms
+2026-03-10 16:19:45,493 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-03-10 16:19:45,836 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\umufly-api\pom.xml.
+2026-03-10 16:19:46,040 [DefaultMetadataResolver-9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-umubus/1.0.15-SNAPSHOT/maven-metadata.xml
+2026-03-10 16:19:46,087 [DefaultMetadataResolver-9-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-umubus/1.0.15-SNAPSHOT/maven-metadata.xml
+2026-03-10 16:19:46,118 [DefaultMetadataResolver-9-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/es/um/atica/fundewebjs/fundewebjs-umubus/1.0.15-SNAPSHOT/maven-metadata.xml
+2026-03-10 16:19:46,173 [DefaultMetadataResolver-10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs-api-dependencies/1.0.15-SNAPSHOT/maven-metadata.xml
+2026-03-10 16:19:46,188 [DefaultMetadataResolver-10-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs-api-dependencies/1.0.15-SNAPSHOT/maven-metadata.xml
+2026-03-10 16:19:46,214 [DefaultMetadataResolver-10-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/es/um/atica/fundewebjs-api-dependencies/1.0.15-SNAPSHOT/maven-metadata.xml
+2026-03-10 16:19:46,255 [DefaultMetadataResolver-11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-log4j2/1.0.15-SNAPSHOT/maven-metadata.xml
+2026-03-10 16:19:46,297 [DefaultMetadataResolver-11-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/es/um/atica/fundewebjs/fundewebjs-log4j2/1.0.15-SNAPSHOT/maven-metadata.xml
+2026-03-10 16:19:46,306 [DefaultMetadataResolver-11-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/es/um/atica/fundewebjs/fundewebjs-log4j2/1.0.15-SNAPSHOT/maven-metadata.xml
+2026-03-10 16:19:46,367 [DefaultMetadataResolver-12-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/cucumber/messages/maven-metadata.xml
+2026-03-10 16:19:46,417 [DefaultMetadataResolver-12-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/cucumber/messages/maven-metadata.xml
+2026-03-10 16:19:46,568 [DefaultMetadataResolver-12-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/messages/maven-metadata.xml
+2026-03-10 16:19:46,676 [DefaultMetadataResolver-13-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/cucumber/query/maven-metadata.xml
+2026-03-10 16:19:46,717 [DefaultMetadataResolver-13-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/cucumber/query/maven-metadata.xml
+2026-03-10 16:19:46,762 [DefaultMetadataResolver-13-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/cucumber/query/maven-metadata.xml
+2026-03-10 16:19:47,544 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /umufly-api/src/main/java
+2026-03-10 16:19:47,544 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /umufly-api/src/main/resources
+2026-03-10 16:19:47,545 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /umufly-api/src/main/resources
+2026-03-10 16:19:47,545 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /umufly-api/src/test/java
+2026-03-10 16:19:47,545 [Worker-24: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /umufly-api/src/test/resources
+2026-03-10 16:19:48,545 [Worker-24: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2026-03-10 16:20:22,491 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-03-10 16:20:22,833 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\umufly-api\pom.xml.
+2026-03-10 16:20:23,824 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /umufly-api/src/main/java
+2026-03-10 16:20:23,825 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /umufly-api/src/main/resources
+2026-03-10 16:20:23,825 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /umufly-api/src/main/resources
+2026-03-10 16:20:23,825 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /umufly-api/src/test/java
+2026-03-10 16:20:23,826 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /umufly-api/src/test/resources
+2026-03-10 16:20:24,774 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2026-03-10 16:23:50,483 [Worker-39: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-03-10 16:23:50,800 [Worker-39: Update Maven projects configuration] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\master\pom.xml.
+2026-03-10 16:23:52,372 [Worker-39: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /master/src/main/java
+2026-03-10 16:23:52,374 [Worker-39: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /master/src/main/resources
+2026-03-10 16:23:52,423 [Worker-39: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /master/src/main/resources
+2026-03-10 16:23:52,436 [Worker-39: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /master/src/test/java
+2026-03-10 16:23:52,436 [Worker-39: Update Maven projects configuration] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /master/src/test/resources
+2026-03-10 16:23:54,481 [Worker-39: Update Maven projects configuration] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 2,00 sec 
+2026-03-10 16:24:53,934 [Worker-46: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\master\pom.xml.
+2026-03-10 16:24:54,919 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-10 16:24:54,919 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-10 16:24:54,923 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-10 16:24:59,759 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-03-10 16:25:00,095 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\master\pom.xml.
+2026-03-10 16:25:01,193 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /master/src/main/java
+2026-03-10 16:25:01,194 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /master/src/main/resources
+2026-03-10 16:25:01,194 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /master/src/main/resources
+2026-03-10 16:25:01,194 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /master/src/test/java
+2026-03-10 16:25:01,194 [Worker-44: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /master/src/test/resources
+2026-03-10 16:25:02,172 [Worker-44: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2026-03-10 16:27:59,992 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-03-10 16:28:00,324 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\master\pom.xml.
+2026-03-10 16:28:01,277 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /master/src/main/java
+2026-03-10 16:28:01,277 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /master/src/main/resources
+2026-03-10 16:28:01,277 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /master/src/main/resources
+2026-03-10 16:28:01,278 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /master/src/test/java
+2026-03-10 16:28:01,278 [Worker-40: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /master/src/test/resources
+2026-03-10 16:28:02,208 [Worker-40: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2026-03-10 16:32:07,603 [Worker-55: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:232)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:583)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:483)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:361)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:313)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:149)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:87)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:367)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:196)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1020)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:247)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:392)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:395)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:506)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:454)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:536)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: unexpected character in markup \u2013 (position: END_TAG seen ...<scope>runtime</scope> <!\u2013... @166:30) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:85)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:230)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: unexpected character in markup \u2013 (position: END_TAG seen ...<scope>runtime</scope> <!\u2013... @166:30) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1494)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1319)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1302)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseDependency(MavenXpp3Reader.java:1350)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2239)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3872)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:112)
+	... 26 common frames omitted
+2026-03-10 16:32:09,138 [Worker-49: Building] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:232)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:583)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:483)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:361)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:313)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:149)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.lambda$0(MavenBuilder.java:87)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:367)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:86)
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:196)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:1020)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:247)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:303)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:392)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:395)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:506)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:454)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:536)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:161)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:255)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: org.apache.maven.model.io.ModelParseException: unexpected character in markup \u2013 (position: END_TAG seen ...<scope>runtime</scope> <!\u2013... @166:30) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:117)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:85)
+	at org.eclipse.m2e.core.internal.IMavenToolbox.readModel(IMavenToolbox.java:230)
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: unexpected character in markup \u2013 (position: END_TAG seen ...<scope>runtime</scope> <!\u2013... @166:30) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1494)
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1319)
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1302)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseDependency(MavenXpp3Reader.java:1350)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2239)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3872)
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595)
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:112)
+	... 26 common frames omitted
+2026-03-10 16:32:14,606 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6.pom
+2026-03-10 16:32:14,618 [Worker-49: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\master\pom.xml.
+2026-03-10 16:32:14,705 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6.pom
+2026-03-10 16:32:14,961 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6.pom
+2026-03-10 16:32:15,010 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/jsonwebtoken/jjwt-root/0.12.6/jjwt-root-0.12.6.pom
+2026-03-10 16:32:15,028 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/jsonwebtoken/jjwt-root/0.12.6/jjwt-root-0.12.6.pom
+2026-03-10 16:32:15,167 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-root/0.12.6/jjwt-root-0.12.6.pom
+2026-03-10 16:32:15,223 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6.pom
+2026-03-10 16:32:15,239 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6.pom
+2026-03-10 16:32:15,255 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-root/0.12.6/jjwt-root-0.12.6.pom
+2026-03-10 16:32:15,374 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6.pom
+2026-03-10 16:32:15,415 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6.pom
+2026-03-10 16:32:15,432 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6.pom
+2026-03-10 16:32:15,448 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6.pom
+2026-03-10 16:32:15,499 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6.pom
+2026-03-10 16:32:15,569 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6.pom
+2026-03-10 16:32:15,607 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6.pom
+2026-03-10 16:32:15,628 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2.pom
+2026-03-10 16:32:15,646 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2.pom
+2026-03-10 16:32:15,648 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2.pom
+2026-03-10 16:32:15,773 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2.pom
+2026-03-10 16:32:15,783 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2.pom
+2026-03-10 16:32:15,823 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/com/fasterxml/jackson/jackson-base/2.20.2/jackson-base-2.20.2.pom
+2026-03-10 16:32:15,841 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/com/fasterxml/jackson/jackson-base/2.20.2/jackson-base-2.20.2.pom
+2026-03-10 16:32:15,842 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/com/fasterxml/jackson/jackson-base/2.20.2/jackson-base-2.20.2.pom
+2026-03-10 16:32:15,968 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.20.2/jackson-base-2.20.2.pom
+2026-03-10 16:32:15,970 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.20.2/jackson-base-2.20.2.pom
+2026-03-10 16:32:16,043 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2.pom
+2026-03-10 16:32:16,060 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2.pom
+2026-03-10 16:32:16,095 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2.pom
+2026-03-10 16:32:16,185 [Worker-57: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2.pom
+2026-03-10 16:32:16,213 [Worker-49: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2.pom
+2026-03-10 16:32:16,273 [AetherRepositoryConnector-archiva.um.es-14-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2.jar
+2026-03-10 16:32:16,313 [AetherRepositoryConnector-archiva.um.es-14-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6.jar
+2026-03-10 16:32:16,315 [AetherRepositoryConnector-archiva.um.es-14-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6.jar
+2026-03-10 16:32:16,322 [AetherRepositoryConnector-archiva.um.es-14-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6.jar
+2026-03-10 16:32:16,322 [AetherRepositoryConnector-archiva.um.es-14-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2.jar
+2026-03-10 16:32:16,332 [AetherRepositoryConnector-archiva.um.es-15-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6.jar
+2026-03-10 16:32:16,364 [AetherRepositoryConnector-archiva.um.es-16-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6.jar
+2026-03-10 16:32:16,373 [AetherRepositoryConnector-archiva.um.es-15-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2.jar
+2026-03-10 16:32:16,382 [AetherRepositoryConnector-archiva.um.es-15-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2.jar
+2026-03-10 16:32:16,382 [AetherRepositoryConnector-archiva.um.es-15-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6.jar
+2026-03-10 16:32:16,388 [AetherRepositoryConnector-archiva.um.es-15-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6.jar
+2026-03-10 16:32:16,415 [AetherRepositoryConnector-archiva.um.es-16-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2.jar
+2026-03-10 16:32:16,418 [AetherRepositoryConnector-archiva.um.es-16-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6.jar
+2026-03-10 16:32:16,419 [AetherRepositoryConnector-archiva.um.es-16-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2.jar
+2026-03-10 16:32:16,419 [AetherRepositoryConnector-archiva.um.es-16-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6.jar
+2026-03-10 16:32:16,440 [AetherRepositoryConnector-archiva.um.es-17-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6.jar
+2026-03-10 16:32:16,492 [AetherRepositoryConnector-archiva.um.es-17-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2.jar
+2026-03-10 16:32:16,493 [AetherRepositoryConnector-archiva.um.es-17-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6.jar
+2026-03-10 16:32:16,494 [AetherRepositoryConnector-archiva.um.es-17-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2.jar
+2026-03-10 16:32:16,495 [AetherRepositoryConnector-archiva.um.es-17-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6.jar
+2026-03-10 16:32:16,522 [AetherRepositoryConnector-repo.maven.apache.org-18-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6.jar
+2026-03-10 16:32:16,559 [AetherRepositoryConnector-repo.maven.apache.org-18-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6.jar
+2026-03-10 16:32:16,562 [AetherRepositoryConnector-repo.maven.apache.org-18-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2.jar
+2026-03-10 16:32:16,576 [AetherRepositoryConnector-repo.maven.apache.org-18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6.jar
+2026-03-10 16:32:16,576 [AetherRepositoryConnector-repo.maven.apache.org-18-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2.jar
+2026-03-10 16:32:16,592 [AetherRepositoryConnector-repo.maven.apache.org-19-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6.jar
+2026-03-10 16:32:16,630 [AetherRepositoryConnector-repo.maven.apache.org-19-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6.jar
+2026-03-10 16:32:16,658 [AetherRepositoryConnector-repo.maven.apache.org-19-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6.jar
+2026-03-10 16:32:16,659 [AetherRepositoryConnector-repo.maven.apache.org-19-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2.jar
+2026-03-10 16:32:16,660 [AetherRepositoryConnector-repo.maven.apache.org-19-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2.jar
+2026-03-10 16:32:16,663 [AetherRepositoryConnector-repo.maven.apache.org-18-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6.jar
+2026-03-10 16:32:16,724 [AetherRepositoryConnector-repo.maven.apache.org-18-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6.jar
+2026-03-10 16:32:16,724 [AetherRepositoryConnector-repo.maven.apache.org-19-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6.jar
+2026-03-10 16:32:16,754 [AetherRepositoryConnector-repo.maven.apache.org-18-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2.jar
+2026-03-10 16:32:16,755 [AetherRepositoryConnector-repo.maven.apache.org-18-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6.jar
+2026-03-10 16:32:16,758 [AetherRepositoryConnector-repo.maven.apache.org-18-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2.jar
+2026-03-10 16:32:16,779 [AetherRepositoryConnector-repo.maven.apache.org-19-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6.jar
+2026-03-10 16:32:16,812 [AetherRepositoryConnector-repo.maven.apache.org-19-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2.jar
+2026-03-10 16:32:16,815 [AetherRepositoryConnector-repo.maven.apache.org-19-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2.jar
+2026-03-10 16:32:16,936 [AetherRepositoryConnector-repo.maven.apache.org-19-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6.jar
+2026-03-10 16:32:17,841 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-10 16:32:17,841 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2026-03-10 16:32:17,844 [Worker-49: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2026-03-10 16:32:18,827 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6-sources.jar
+2026-03-10 16:32:18,894 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6-sources.jar
+2026-03-10 16:32:19,033 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6-sources.jar
+2026-03-10 16:32:19,165 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6-sources.jar
+2026-03-10 16:32:19,179 [Worker-55: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.jsonwebtoken:jjwt-api:0.12.6
+2026-03-10 16:32:19,250 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6-javadoc.jar
+2026-03-10 16:32:19,275 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6-javadoc.jar
+2026-03-10 16:32:19,324 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6-javadoc.jar
+2026-03-10 16:32:19,458 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-api/0.12.6/jjwt-api-0.12.6-javadoc.jar
+2026-03-10 16:32:19,480 [Worker-55: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for io.jsonwebtoken:jjwt-api:0.12.6
+2026-03-10 16:32:19,575 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6-sources.jar
+2026-03-10 16:32:19,656 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6-sources.jar
+2026-03-10 16:32:19,789 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6-sources.jar
+2026-03-10 16:32:19,930 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6-sources.jar
+2026-03-10 16:32:19,933 [Worker-55: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.jsonwebtoken:jjwt-impl:0.12.6
+2026-03-10 16:32:19,989 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6-javadoc.jar
+2026-03-10 16:32:20,005 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6-javadoc.jar
+2026-03-10 16:32:20,064 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6-javadoc.jar
+2026-03-10 16:32:20,179 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-impl/0.12.6/jjwt-impl-0.12.6-javadoc.jar
+2026-03-10 16:32:20,203 [Worker-55: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for io.jsonwebtoken:jjwt-impl:0.12.6
+2026-03-10 16:32:20,302 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6-sources.jar
+2026-03-10 16:32:20,377 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6-sources.jar
+2026-03-10 16:32:20,503 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6-sources.jar
+2026-03-10 16:32:20,655 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6-sources.jar
+2026-03-10 16:32:20,659 [Worker-55: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.jsonwebtoken:jjwt-jackson:0.12.6
+2026-03-10 16:32:20,699 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6-javadoc.jar
+2026-03-10 16:32:20,718 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6-javadoc.jar
+2026-03-10 16:32:20,769 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6-javadoc.jar
+2026-03-10 16:32:21,709 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/jsonwebtoken/jjwt-jackson/0.12.6/jjwt-jackson-0.12.6-javadoc.jar
+2026-03-10 16:32:21,736 [Worker-55: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for io.jsonwebtoken:jjwt-jackson:0.12.6
+2026-03-10 16:32:21,836 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2-sources.jar
+2026-03-10 16:32:21,900 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2-sources.jar
+2026-03-10 16:32:22,043 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2-sources.jar
+2026-03-10 16:32:22,234 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2-sources.jar
+2026-03-10 16:32:22,250 [Worker-55: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-databind:2.20.2
+2026-03-10 16:32:22,330 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2-javadoc.jar
+2026-03-10 16:32:22,352 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2-javadoc.jar
+2026-03-10 16:32:22,403 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2-javadoc.jar
+2026-03-10 16:32:22,583 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.20.2/jackson-databind-2.20.2-javadoc.jar
+2026-03-10 16:32:22,604 [Worker-55: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for com.fasterxml.jackson.core:jackson-databind:2.20.2
+2026-03-10 16:32:22,705 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2-sources.jar
+2026-03-10 16:32:22,772 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2-sources.jar
+2026-03-10 16:32:22,895 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2-sources.jar
+2026-03-10 16:32:23,049 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2-sources.jar
+2026-03-10 16:32:23,065 [Worker-55: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.core:jackson-core:2.20.2
+2026-03-10 16:32:23,113 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWeb/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2-javadoc.jar
+2026-03-10 16:32:23,129 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://archiva.um.es/archiva/repository/FundeWebJS/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2-javadoc.jar
+2026-03-10 16:32:23,181 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2-javadoc.jar
+2026-03-10 16:32:23,313 [Worker-55: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.20.2/jackson-core-2.20.2-javadoc.jar
+2026-03-10 16:32:23,337 [Worker-55: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for com.fasterxml.jackson.core:jackson-core:2.20.2
+2026-03-10 16:33:20,500 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2026-03-10 16:33:20,813 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\master\pom.xml.
+2026-03-10 16:33:21,887 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /master/src/main/java
+2026-03-10 16:33:21,887 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /master/src/main/resources
+2026-03-10 16:33:21,887 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /master/src/main/resources
+2026-03-10 16:33:21,888 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /master/src/test/java
+2026-03-10 16:33:21,888 [Worker-59: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /master/src/test/resources
+2026-03-10 16:33:22,860 [Worker-59: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0,00 sec, refresh facades takes 1,00 sec, update config takes 0,00 sec 
+2026-03-10 16:38:28,126 [Worker-57: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration UmuflyApiApplicationTests references closed project umufly-api
+org.eclipse.core.runtime.CoreException: Launch configuration UmuflyApiApplicationTests references closed project umufly-api
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:410)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:847)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1000)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:367)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2026-03-10 16:38:28,127 [Worker-57: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration UmuflyApiApplicationTests references closed project umufly-api
+org.eclipse.core.runtime.CoreException: Launch configuration UmuflyApiApplicationTests references closed project umufly-api
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:524)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:847)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1000)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:367)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2026-03-10 16:38:28,143 [Worker-57: Updating Maven Dependencies] ERROR o.e.m.j.i.l.MavenLaunchConfigurationListener - Launch configuration UmuflyApiApplicationTests references closed project umufly-api
+org.eclipse.core.runtime.CoreException: Launch configuration UmuflyApiApplicationTests references closed project umufly-api
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:64)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:50)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2147)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:377)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:412)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:436)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:135)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:847)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:1000)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:162)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:367)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:274)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:213)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2026-03-10 19:12:50,016 [Worker-87: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\umufly-api\pom.xml.
+2026-03-10 19:12:50,016 [Worker-82: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\umufly-api\pom.xml.
+2026-03-10 19:12:50,657 [Worker-84: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\umufly-api\pom.xml.
+2026-03-10 19:12:52,825 [Worker-76: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\umufly-api\pom.xml.
+2026-03-10 19:12:52,844 [Worker-86: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\umufly-api\pom.xml.
+2026-03-10 19:12:54,878 [Worker-85: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\umufly-api\pom.xml.
+2026-03-12 16:08:30,660 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2026-03-12 16:08:40,534 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\umufly-api\pom.xml.
+2026-03-12 16:08:51,153 [Worker-8: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: es.um.atica.umufly:umufly-api:0.0.1-SNAPSHOT @ C:\FundeWeb\2.1\workspace\master\pom.xml.
+2026-03-12 16:09:01,132 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:09:01,162 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:09:01,170 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
+2026-03-12 16:09:04,250 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:09:04,283 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2026-03-12 16:09:04,294 [Worker-7: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\test\resources to target\test-classes
